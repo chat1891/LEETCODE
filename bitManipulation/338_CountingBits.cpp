@@ -1,13 +1,12 @@
 #include <vector>
-using namespace std;
 
 //dp
 class Solution
 {
 public:
-    vector<int> countBits(int n)
+    std::vector<int> countBits(int n)
     {
-        vector<int> ans(n + 1);
+        std::vector<int> ans(n + 1);
         for (int i = 0; i <= n; i++)
         {
             //x/2 is x>>1
@@ -23,9 +22,9 @@ public:
 class Solution
 {
 public:
-    vector<int> countBits(int n)
+    std::vector<int> countBits(int n)
     {
-        vector<int> ans(n + 1);
+        std::vector<int> ans(n + 1);
         for (int i = 0; i <= n; i++)
         {
             int cur = i;
@@ -44,9 +43,9 @@ public:
 class Solution
 {
 public:
-    vector<int> countBits(int n)
+    std::vector<int> countBits(int n)
     {
-        vector<int> ans(n + 1);
+        std::vector<int> ans(n + 1);
         //*needs to start with 1 not 0
         for (int i = 1; i <= n; i++)
         {

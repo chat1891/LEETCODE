@@ -1,10 +1,9 @@
 #include <vector>
-using namespace std;
 
 class Solution_bitManupulation
 {
 public:
-    int missingNumber(vector<int>& nums)
+    int missingNumber(std::vector<int>& nums)
     {
         int n = nums.size();
         int miss = 0;
@@ -30,7 +29,7 @@ public:
 class Solution
 {
 public:
-    int missingNumber(vector<int>& nums)
+    int missingNumber(std::vector<int>& nums)
     {
         int n = nums.size();
         int sum = (1 + n) * (n) / 2;

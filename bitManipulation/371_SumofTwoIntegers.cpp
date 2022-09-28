@@ -1,5 +1,4 @@
 #include <string>
-using namespace std;
 
 class Solution_unsignedInt
 {
