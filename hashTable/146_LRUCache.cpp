@@ -1,5 +1,4 @@
 #include <string>
-using namespace std;
 #include <tuple>
 #include <algorithm> 
 #include <queue>
@@ -10,8 +9,8 @@ class LRUCache_USEstl
 {
 public:
     int capacity;
-    list<pair<int, int>> li;
-    unordered_map<int, list<pair<int, int>>::iterator> mp;
+    std::list<std::pair<int, int>> li;
+    std::unordered_map<int, std::list<std::pair<int, int>>::iterator> mp;
     LRUCache_USEstl(int capacity) : capacity{ capacity }
     {
     }
@@ -67,7 +66,7 @@ public:
     };
 
 
-    unordered_map<int, Node*> mp;
+    std::unordered_map<int, Node*> mp;
     int Capacity;
     Node* head = new Node(-1, -1);
     Node* tail = new Node(-1, -1);

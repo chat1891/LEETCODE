@@ -1,5 +1,4 @@
 #include <string>
-using namespace std;
 #include <algorithm> 
 #include <queue>
 #include <set>
@@ -8,9 +7,9 @@ using namespace std;
 class Solution_priority_queue
 {
 public:
-    int longestConsecutive(vector<int>& nums)
+    int longestConsecutive(std::vector<int>& nums)
     {
-        priority_queue<int, vector<int>, greater<int>> pq;
+        std::priority_queue<int, std::vector<int>, std::greater<int>> pq;
         for (auto num : nums)
         {
             pq.push(num);
@@ -39,7 +38,7 @@ public:
             {
                 count = 1;
             }
-            cumulative = max(cumulative, count);
+            cumulative = std::max(cumulative, count);
         }
 
         return cumulative;
@@ -49,9 +48,9 @@ public:
 class Solution_slow
 {
 public:
-    int longestConsecutive(vector<int>& nums)
+    int longestConsecutive(std::vector<int>& nums)
     {
-        set<int> hashSet;
+        std::set<int> hashSet;
         for (auto num : nums)
         {
             hashSet.insert(num);
@@ -74,7 +73,7 @@ public:
                     cur++;
                 }
 
-                consecutive = max(count, consecutive);
+                consecutive = std::max(count, consecutive);
             }
         }
 
@@ -84,7 +83,7 @@ public:
 };
 
 //can also use sort to solve
-int longestConsecutive(vector<int>& nums)
+int longestConsecutive(std::vector<int>& nums)
 {
     if (nums.size() == 0)
         return 0;
@@ -99,7 +98,7 @@ int longestConsecutive(vector<int>& nums)
         if (nums[i + 1] - nums[i] == 1)
         {
             count++;
-            max_count = max(max_count, count);
+            max_count = std::max(max_count, count);
         }
 
         else

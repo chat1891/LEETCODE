@@ -1,19 +1,18 @@
 #include <unordered_map>
 #include <unordered_set>
-using namespace std;
 
 //https://www.youtube.com/watch?v=UwpvInpgFmo
 class Solution
 {
 public:
-    double calculateDivision(unordered_map<string, unordered_map<string, double>>& g, const string& a, const string& b, unordered_set<string>& visited)
+    double calculateDivision(std::unordered_map<std::string, std::unordered_map<std::string, double>>& g, const std::string& a, const std::string& b, std::unordered_set<std::string>& visited)
     {
         if (a == b) return 1;
         visited.insert(a);
         for (const auto& edge : g[a])
         {
             //a/b = a/c * c/b
-            const string& c = edge.first;
+            const std::string& c = edge.first;
             if (visited.count(c)) continue;
 
             // a/c
@@ -26,25 +25,25 @@ public:
         return -1;
     }
 
-    vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries)
+    std::vector<double> calcEquation(std::vector<std::vector<std::string>>& equations, std::vector<double>& values, std::vector<std::vector<std::string>>& queries)
     {
         //graph [A][B] -> value
-        unordered_map<string, unordered_map<string, double>> g;
+        std::unordered_map<std::string, std::unordered_map<std::string, double>> g;
         //add edges to the graph
         for (int i = 0; i < equations.size(); i++)
         {
-            const string& a = equations[i][0];
-            const string& b = equations[i][1];
+            const std::string& a = equations[i][0];
+            const std::string& b = equations[i][1];
 
             g[a][b] = values[i];
             g[b][a] = 1 / values[i];
         }
 
-        vector<double> res;
+        std::vector<double> res;
         for (const auto& query : queries)
         {
-            const string& A = query[0];
-            const string& B = query[1];
+            const std::string& A = query[0];
+            const std::string& B = query[1];
             //didn't find all values return -1
             if (!g.count(A) || !g.count(B))
             {
@@ -52,7 +51,7 @@ public:
             }
             else
             {
-                unordered_set<string> visited;
+                std::unordered_set<std::string> visited;
                 res.push_back(calculateDivision(g, A, B, visited));
             }
         }

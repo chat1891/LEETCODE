@@ -1,5 +1,4 @@
 #include <string>
-using namespace std;
 #include <tuple>
 #include <algorithm> 
 #include <queue>
@@ -18,12 +17,12 @@ struct ListNode
 class Solution_priorityQueue
 {
 public:
-    ListNode* mergeKLists(vector<ListNode*>& lists)
+    ListNode* mergeKLists(std::vector<ListNode*>& lists)
     {
         //use priority queue
         //insert pair<first value, list indedx> to priority queue
         //move that list's first value to next
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int>>, std::greater<std::pair<int, int>>> pq;
         int n = lists.size();
         for (int i = 0; i < n; i++)
         {
@@ -40,7 +39,7 @@ public:
         ListNode* node = root;
         while (!pq.empty())
         {
-            pair<int, int> cur = pq.top();
+            std::pair<int, int> cur = pq.top();
             pq.pop();
             ListNode* curNode = new ListNode(cur.first);
             node->next = curNode;

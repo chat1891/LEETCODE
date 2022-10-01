@@ -1,5 +1,4 @@
 #include <string>
-using namespace std;
 #include <tuple>
 #include <algorithm> 
 #include <queue>
@@ -18,7 +17,7 @@ using namespace std;
 class Solution_slowFastPointer
 {
 public:
-    int findDuplicate(vector<int>& nums)
+    int findDuplicate(std::vector<int>& nums)
     {
         int slow = nums[0];
         int fast = nums[0];
