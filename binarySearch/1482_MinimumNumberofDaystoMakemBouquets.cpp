@@ -1,5 +1,4 @@
 #include <vector>
-using namespace std;
 
 /*
 intuition:
@@ -21,7 +20,7 @@ O(1)
 class Solution
 {
 public:
-    bool canMakeBouquets(vector<int>& bloomDay, int m, int k, int curDay)
+    bool canMakeBouquets(std::vector<int>& bloomDay, int m, int k, int curDay)
     {
         //check if can make m bouquets within curDays
         int numBouquet = 0;
@@ -51,7 +50,7 @@ public:
         return numBouquet >= m;
     }
 
-    int minDays(vector<int>& bloomDay, int m, int k)
+    int minDays(std::vector<int>& bloomDay, int m, int k)
     {
         int n = bloomDay.size();
         //not enough flower for bouquets
