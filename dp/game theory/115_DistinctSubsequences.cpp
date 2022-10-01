@@ -1,7 +1,6 @@
 #include <vector>
 #include <string>
-using namespace std;
-//not sure how to do space optimization
+
 //https://leetcode.com/problems/distinct-subsequences/discuss/2024556/C%2B%2B-DP-Solution-(Recursive-Top-Down-Bottom-Up-Space-Optimized)
 //https://leetcode.com/problems/distinct-subsequences/discuss/37316/7-10-lines-C%2B%2B-Solutions-with-Detailed-Explanations-(O(m*n)-time-and-O(m)-space)
 
@@ -14,7 +13,7 @@ class Solution
 public:
     int ns = 0;
     int nt = 0;
-    int dfs(string& s, string& t, int i, int j, vector<vector<int>>& dp)
+    int dfs(std::string& s, std::string& t, int i, int j, std::vector<std::vector<int>>& dp)
     {
         if (i == ns && j < nt)
         {
@@ -42,11 +41,11 @@ public:
 
     }
 
-    int numDistinct(string s, string t)
+    int numDistinct(std::string s, std::string t)
     {
         ns = s.length();
         nt = t.length();
-        vector<vector<int>> dp(ns, vector<int>(nt, -1));
+        std::vector<std::vector<int>> dp(ns, std::vector<int>(nt, -1));
         return dfs(s, t, 0, 0, dp);
 
     }
@@ -55,13 +54,13 @@ public:
 class Solution
 {
 public:
-    int numDistinct(string s, string t)
+    int numDistinct(std::string s, std::string t)
     {
         int ns = s.length();
         int nt = t.length();
 
         //use unsigned int to avoid overflow
-        vector<vector<unsigned int>> dp(ns + 1, vector<unsigned int>(nt + 1, 0));
+        std::vector<std::vector<unsigned int>> dp(ns + 1, std::vector<unsigned int>(nt + 1, 0));
         //base case
         for (int i = ns; i >= 0; i--)
         {

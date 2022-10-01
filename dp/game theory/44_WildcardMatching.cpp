@@ -1,7 +1,6 @@
 #include <string>
 #include <vector>
 #include <iostream>
-using namespace std;
 
  class Solution
 {
@@ -9,7 +8,7 @@ public:
     int ns = 0;
     int np = 0;
 
-    bool dfs(int i, int j, vector<vector<int>>& memo, string& s, string& p)
+    bool dfs(int i, int j, std::vector<std::vector<int>>& memo, std::string& s, std::string& p)
     {
         if (i >= ns && j >= np) return true; //s, and j to the end to find match
         if (j >= np) return false; //pattern to the end, failed match
@@ -39,12 +38,12 @@ public:
 
 
     }
-    bool isMatch(string s, string p)
+    bool isMatch(std::string s, std::string p)
     {
         ns = s.empty() ? 0 : s.length();
         np = p.length();
 
-        vector<vector<int>> memo(ns + 1, vector<int>(np + 1, -1));
+        std::vector<std::vector<int>> memo(ns + 1, std::vector<int>(np + 1, -1));
         //memo[ns][np]=1;
 
         return dfs(0, 0, memo, s, p) == 1;
@@ -55,7 +54,7 @@ public:
 class Solution
 {
 public:
-    bool f(string& s, string& p, int s_idx, int p_idx, int** dp)
+    bool f(std::string& s, std::string& p, int s_idx, int p_idx, int** dp)
     {
         int* curr = (*(dp + s_idx) + p_idx);  // current cell in table
         // if in dp
@@ -112,10 +111,10 @@ public:
         }
     }
 
-    bool isMatch(string s, string p)
+    bool isMatch(std::string s, std::string p)
     {
-        ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
+        std::ios_base::sync_with_stdio(false);
+        std::cin.tie(NULL);
         // dynamic programming table
         int** dp = (int**)malloc((s.length() + 1) * sizeof(int*));
         for (int i = 0; i < (s.length() + 1); i++)

@@ -1,6 +1,5 @@
 #include <vector>
 #include <string>
-using namespace std;
 
 //time O(ns * np)
 class Solution_dp
@@ -10,7 +9,7 @@ public:
     int ns = 0;
     int np = 0;
 
-    bool dfs(int i, int j, vector<vector<int>>& memo, const string& s, const string& p)
+    bool dfs(int i, int j, std::vector<std::vector<int>>& memo, const std::string& s, const std::string& p)
     {
         if (i < ns && j < np && memo[i][j] != -1) return memo[i][j];
         if (i >= ns && j >= np) return true; //both s and p reach to the end
@@ -38,12 +37,12 @@ public:
 
     }
 
-    bool isMatch(string s, string p)
+    bool isMatch(std::string s, std::string p)
     {
         ns = s.length();
         np = p.length();
         //need to give one extra to avoid overflow
-        vector<vector<int>> memo(ns + 1, vector<int>(np + 1, -1));
+        std::vector<std::vector<int>> memo(ns + 1, std::vector<int>(np + 1, -1));
         return dfs(0, 0, memo, s, p);
     }
 };
@@ -57,7 +56,7 @@ public:
     int ns = 0;
     int np = 0;
 
-    bool dfs(int i, int j, const string& s, const string& p)
+    bool dfs(int i, int j, const std::string& s, const std::string& p)
     {
         if (i >= ns && j >= np) return true; //both s and p reach to the end
         if (j >= np) return false; //s is not at end, but p is
@@ -82,7 +81,7 @@ public:
 
     }
 
-    bool isMatch(string s, string p)
+    bool isMatch(std::string s, std::string p)
     {
         ns = s.length();
         np = p.length();
