@@ -12,12 +12,17 @@ This repository is used to track leetcode problems and notes.
 |~|~Array~|~|~|~|~|
 |27| [Remove Element](https://leetcode.com/problems/remove-element/) |Array|Easy|[C++](./Arrays/27_RemoveElement.cpp)|
 |42| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |Array|Hard|[C++](./Arrays/42_TrappingRainWater.cpp)|\*|
+|55| [Jump Game II](https://leetcode.com/problems/jump-game/) |Array|Medium|[C++](./Arrays/55_JumpGame.cpp)|\*|
+|55| [Jump Game](https://leetcode.com/problems/jump-game/) |Array|Medium|[C++](./Arrays/55_JumpGame.cpp)|\*|
 |118| [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) |Array|Easy|[C++](./Arrays/118_PascalsTriangle.cpp)|
 |121| [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |Array|Easy|[C++](./Arrays/121_BestTimetoBuyandSellStock.cpp)|
 |167| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |Array, Two pointers|Medium|[C++](./Arrays/167_TwoSumII-InputArrayIsSorted.cpp)|
 |353| [Design Snake Game](https://leetcode.com/problems/design-snake-game/) |Array, Deque|Medium|[C++](./Arrays/353_DesignSnakeGame.cpp)|\*|
+|1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) |Array|Easy|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
 |~|~String~|~|~|~|~|
 |344| [Reverse String](https://leetcode.com/problems/reverse-string/)|String|Easy|[C++](./string/344_ReverseString.cpp)|
+|2000| [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
+|2259| [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
 |~|~Binary Search~|~|~|~|~|
 |1283| [Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|Binary Search|Medium|[C++](./binarySearch/1283_FindtheSmallestDivisorGivenaThreshold.cpp)|
 |1482| [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|Binary Search|Medium|[C++](./binarySearch/1482_MinimumNumberofDaystoMakemBouquets.cpp)|
@@ -26,13 +31,14 @@ This repository is used to track leetcode problems and notes.
 |1578| [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) |Two Pointers|Medium|[C++](./dp/twoPointers/1578_MinimumTimetoMakeRopeColorful.cpp)|
 |~|~Hash Table~|~|~|~|~|
 |128| [Longest Consecutive Sequence](hthttps://leetcode.com/problems/longest-consecutive-sequence/) |Hash Table|Medium|[C++](./hashTable/128_LongestConsecutiveSequence.cpp)|
-|146| [LRU Cache](https://leetcode.com/problems/lru-cache/) |Hash Table|Medium|[C++](./hashTable/146_LRUCache.cpp)|
+|146| [LRU Cache](https://leetcode.com/problems/my-calendar-iii/) |Hash Table, Scan line|Medium|[C++](./hashTable/146_LRUCache.cpp)|
 |981| [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) |Hash Table|Medium|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
 |~|~Bit Manipulation~|~|~|~|~|
 |191| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) |Bit Manipulation|Easy|[C++](./bitManipulation/191_Numberof1Bits.cpp)|
 |268| [Missing Number](https://leetcode.com/problems/missing-number/) |Bit Manipulation|Easy|[C++](./bitManipulation/268_MissingNumber.cpp)|
 |338| [Counting Bits](https://leetcode.com/problems/counting-bits/) |Bit Manipulation|Easy|[C++](./bitManipulation/338_CountingBits.cpp)|
 |371| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) |Bit Manipulation|Medium|[C++](./bitManipulation/371_SumofTwoIntegers.cpp)|
+|1404| [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) |Bit Manipulation, String|Medium|[C++](./bitManipulation/1404_NumberofStepstoReduceaNumberinBinaryRepresentationtoOne.cpp)|
 |~|~Linked List~|~|~|~|~|
 |23| [Merge k Sorted List](https://leetcode.com/problems/merge-k-sorted-lists/) |Linked List|Hard|[C++](./linkedList/23_MergekSortedList.cpp)|
 |141| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) |Linked List, Two Pointers|Easy|[C++](./linkedList/fastSlowPointer/141_LinkedListCycle.cpp)|
@@ -42,6 +48,8 @@ This repository is used to track leetcode problems and notes.
 |112| [Path Sum](https://leetcode.com/problems/path-sum/) |Binary Tree, DFS, BFS|Easy|[C++](./Tree/traversal/112_PathSum.cpp)|
 |623| [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) |Binary Tree, BFS|Medium|[C++](./Tree/traversal/623_AddOneRowtoTree.cpp)|
 |863| [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) |Binary Tree, BFS|Medium|[C++](./Tree/traversal/863_AllNodesDistanceKinBinaryTree.cpp)|\*|
+|~|~Interval~|~|~|~|~|
+|732| [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) |Interval|Hard|[C++](./interval/732_MyCalendarIII.cpp)|\*|
 |~|~DP~|~|~|~|~|
 |10| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) |DP Game Theory|Hard|[C++](./dp/gameTheory/10_RegularExpressionMatching.cpp)|
 |44| [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) |DP Game Theory|Hard|[C++](./dp/gameTheory/44_WildcardMatching.cpp)|
@@ -58,6 +66,7 @@ This repository is used to track leetcode problems and notes.
 |841| [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) |Graph, DFS|Medium|[C++](./graph/dfs/841_KeysandRooms.cpp)|
 |1091| [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) |Graph, BFS|Medium|[C++](./graph/bfs/1091_ShortestPathinBinaryMatrix.cpp)|\*|
 ~|~Math~|~|~|~|~|
+|67| [Add Binary](https://leetcode.com/problems/add-binary/) |Math|Easy|[C++](./math/67_AddBinary.cpp)|
 |204| [Count Primes](https://leetcode.com/problems/count-primes/) |Math|Medium|[C++](./math/204_CountPrimes.cpp)|
 |1304| [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |Math|Easy|[C++](./math/1304_FindNUniqueIntegersSumuptoZero.cpp)|
 
@@ -78,6 +87,8 @@ This repository is used to track leetcode problems and notes.
 |~|~Matrix~|~|~|~|~|
 |48| [Rotate Image](https://leetcode.com/problems/rotate-image/) |Matrix|Medium|[C++](./matrix/48_RotateImage.cpp)|
 |73| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) |Matrix|Medium|[C++](./matrix/73_SetMatrixZeroes.cpp)|
+|348| [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) |Matrix|Medium|[C++](./matrix/348_DesignTicTacToe.cpp)|\*|
+|1275| [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) |Matrix|Medium|[C++](./matrix/1275_FindWinneronaTicTacToeGame.cpp)|
 |~|Bit Manipulation|~|~|~|~|
 |190| [Reverse Bits](https://leetcode.com/problems/reverse-bits/) |Bit Manipulation|Easy|[C++](./bitManipulation/190_ReverseBits.cpp)|
 |191| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) |Bit Manipulation|Easy|[C++](./bitManipulation/191_Numberof1Bits.cpp)|
