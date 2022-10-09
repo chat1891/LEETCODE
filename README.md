@@ -10,16 +10,19 @@ This repository is used to track leetcode problems and notes.
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |~|~Array~|~|~|~|~|
+|16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |Array|Medium|[C++](./Arrays/16_3SumClosest.cpp)|
 |27| [Remove Element](https://leetcode.com/problems/remove-element/) |Array|Easy|[C++](./Arrays/27_RemoveElement.cpp)|
 |42| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |Array|Hard|[C++](./Arrays/42_TrappingRainWater.cpp)|\*|
 |55| [Jump Game II](https://leetcode.com/problems/jump-game/) |Array|Medium|[C++](./Arrays/55_JumpGame.cpp)|\*|
 |55| [Jump Game](https://leetcode.com/problems/jump-game/) |Array|Medium|[C++](./Arrays/55_JumpGame.cpp)|\*|
+|80| [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |Array, Two Pointers|Medium|[C++](./Arrays/55_JumpGame.cpp)|\*|
 |118| [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) |Array|Easy|[C++](./Arrays/118_PascalsTriangle.cpp)|
 |121| [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |Array|Easy|[C++](./Arrays/121_BestTimetoBuyandSellStock.cpp)|
 |167| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |Array, Two pointers|Medium|[C++](./Arrays/167_TwoSumII-InputArrayIsSorted.cpp)|
 |353| [Design Snake Game](https://leetcode.com/problems/design-snake-game/) |Array, Deque|Medium|[C++](./Arrays/353_DesignSnakeGame.cpp)|\*|
 |1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) |Array|Easy|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
 |~|~String~|~|~|~|~|
+|65| [Valid Number](https://leetcode.com/problems/valid-number/)|String|Hard|[C++](./string/65_ValidNumber.cpp)|
 |344| [Reverse String](https://leetcode.com/problems/reverse-string/)|String|Easy|[C++](./string/344_ReverseString.cpp)|
 |2000| [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
 |2259| [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
@@ -41,6 +44,7 @@ This repository is used to track leetcode problems and notes.
 |1404| [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) |Bit Manipulation, String|Medium|[C++](./bitManipulation/1404_NumberofStepstoReduceaNumberinBinaryRepresentationtoOne.cpp)|
 |~|~Linked List~|~|~|~|~|
 |23| [Merge k Sorted List](https://leetcode.com/problems/merge-k-sorted-lists/) |Linked List|Hard|[C++](./linkedList/23_MergekSortedList.cpp)|
+|25| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) |Linked List|Hard|[C++](./linkedList/25_ReverseNodesinkGroup.cpp)|
 |141| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) |Linked List, Two Pointers|Easy|[C++](./linkedList/fastSlowPointer/141_LinkedListCycle.cpp)|
 |237| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) |Linked List|Medium|[C++](./linkedList/237_DeleteNodeinaLinkedList.cpp)|
 |287| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) |Linked List, Two Pointers|Easy|[C++](./linkedList/fastSlowPointer/287_FindtheDuplicateNumber.cpp)|
@@ -69,6 +73,10 @@ This repository is used to track leetcode problems and notes.
 |67| [Add Binary](https://leetcode.com/problems/add-binary/) |Math|Easy|[C++](./math/67_AddBinary.cpp)|
 |204| [Count Primes](https://leetcode.com/problems/count-primes/) |Math|Medium|[C++](./math/204_CountPrimes.cpp)|
 |1304| [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |Math|Easy|[C++](./math/1304_FindNUniqueIntegersSumuptoZero.cpp)|
+~|~Monotinic Stack~|~|~|~|~|
+|84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |Monotinic Stack|Hard|[C++](./monotonic_stack/84_LargestRectangleinHistogram.cpp)|\*|
+|2334| [Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/) |Monotinic Stack|Hard|[C++](./monotonic_stack/2334_SubarrayWithElementsGreaterThanVaryingThreshold.cpp)||
+
 
 # 75 top questions from blind
 |num|Question| Category | Difficulty | Solution |Like|
