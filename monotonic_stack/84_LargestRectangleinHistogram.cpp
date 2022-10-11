@@ -5,10 +5,56 @@
 /*
 Intuition;
 - use monotonic stack
-- width is between previous small and next small
+- width is between previous smaller and next smaller
 - area is current height * width
 
 */
+
+//https://www.youtube.com/watch?v=xba0NzSbuas
+class Solution
+{
+public:
+    int largestRectangleArea(std::vector<int>& heights)
+    {
+        std::stack<int> stk;
+        int n = heights.size();
+        std::vector<int> prevSmaller(n, -1); //* init to -1
+        std::vector<int> nextSmaller(n, n); //* init to n
+
+        //find next smaller height
+        for (int i = 0; i < n; i++)
+        {
+            while (!stk.empty() && heights[i] < heights[stk.top()])
+            {
+                nextSmaller[stk.top()] = i;
+                stk.pop();
+            }
+            stk.push(i);
+        }
+        //clear stack
+        while (!stk.empty()) stk.pop();
+
+        //find previous smaller stack
+        for (int i = n - 1; i >= 0; i--)
+        {
+            while (!stk.empty() && heights[i] < heights[stk.top()])
+            {
+                prevSmaller[stk.top()] = i;
+                stk.pop();
+            }
+            stk.push(i);
+        }
+
+        int res = 0;
+        for (int i = 0; i < n; i++)
+        {
+            int curArea = (nextSmaller[i] - prevSmaller[i] - 1) * heights[i];
+            res = std::max(res, curArea);
+        }
+
+        return res;
+    }
+};
 
 //https://www.youtube.com/watch?v=zx5Sw9130L0&t=489s
 //https://www.youtube.com/watch?v=mesaogfSjD4

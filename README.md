@@ -9,7 +9,7 @@ This repository is used to track leetcode problems and notes.
 
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
-|~|~Array~|~|~|~|~|
+|~|=Array=|~|~|~|~|
 |16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |Array|Medium|[C++](./Arrays/16_3SumClosest.cpp)|
 |27| [Remove Element](https://leetcode.com/problems/remove-element/) |Array|Easy|[C++](./Arrays/27_RemoveElement.cpp)|
 |42| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |Array|Hard|[C++](./Arrays/42_TrappingRainWater.cpp)|\*|
@@ -80,6 +80,8 @@ This repository is used to track leetcode problems and notes.
 |1304| [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |Math|Easy|[C++](./math/1304_FindNUniqueIntegersSumuptoZero.cpp)|
 ~|~Monotinic Stack~|~|~|~|~|
 |84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |Monotinic Stack|Hard|[C++](./monotonic_stack/84_LargestRectangleinHistogram.cpp)|\*|
+|85| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) |Monotinic Stack|Hard|[C++](./monotonic_stack/85_MaximalRectangle.cpp)||
+|2104| [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) |Monotinic Stack|Hard|[C++](./monotonic_stack/2104_SumofSubarrayRanges.cpp)|\*\*|
 |2334| [Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/) |Monotinic Stack|Hard|[C++](./monotonic_stack/2334_SubarrayWithElementsGreaterThanVaryingThreshold.cpp)||
 
 
