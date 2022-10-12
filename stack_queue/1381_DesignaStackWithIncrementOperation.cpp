@@ -1,17 +1,17 @@
 #include <vector>
 #include <stack>
-using namespace std;
+
 
 class CustomStack
 {
 public:
-    vector<int> stk;
+    std::vector<int> stk;
     int capacity;
     int len;
 
     CustomStack(int maxSize)
     {
-        stk = vector<int>(maxSize);
+        stk = std::vector<int>(maxSize);
         capacity = maxSize;
         len = 0;
     }
@@ -36,7 +36,7 @@ public:
 
     void increment(int k, int val)
     {
-        int numItems = min(k, len);
+        int numItems = std::min(k, len);
         for (int i = numItems - 1; i >= 0; i--)
         {
             stk[i] += val;

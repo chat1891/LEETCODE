@@ -1,10 +1,11 @@
 //same as 84 Largest Rectangle in Histogram
-
+#include <vector>
 #include <stack>
+
 class Solution
 {
 public:
-    int validSubarraySize(vector<int>& nums, int threshold)
+    int validSubarraySize(std::vector<int>& nums, int threshold)
     {
         std::stack<std::pair<int, int>> stk; //idx, num
         int n = nums.size();

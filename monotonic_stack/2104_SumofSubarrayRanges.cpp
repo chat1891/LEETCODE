@@ -1,6 +1,7 @@
 #include <vector>
 #include <stack>
 
+
 //monotonic stack
 //sum of subarray max - sum of subarray min
 //= sum of subarray (max - min)
@@ -115,7 +116,7 @@ public:
 
 //brute force
 //Time: O(n^2)
-class Solution
+class Solution_2
 {
 public:
     long long subArrayRanges(std::vector<int>& nums)
