@@ -28,11 +28,13 @@ This repository is used to track leetcode problems and notes.
 |2279| [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) |Array, Sort|Medium|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
 |~|=String=|~|~|~|~|
 |65| [Valid Number](https://leetcode.com/problems/valid-number/)|String|Hard|[C++](./string/65_ValidNumber.cpp)|
+|151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|String|Medium|[C++](./string/151_ReverseWordsinaString.cpp)|
 |249| [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)|String|Medium|[C++](./string/249_GroupShiftedStrings.cpp)|
 |344| [Reverse String](https://leetcode.com/problems/reverse-string/)|String|Easy|[C++](./string/344_ReverseString.cpp)|
 |696| [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|String|Easy|[C++](./string/696_CountBinarySubstrings.cpp)|
 |937| [ReReorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|String|Medium|[C++](./string/937_ReorderDatainLogFiles.cpp)|
 |1328| [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|String|Medium|[C++](./string/1328_BreakaPalindrome.cpp)|
+|1592| [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|String|Easy|[C++](./string/1592_RearrangeSpacesBetweenWords.cpp)|
 |2000| [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
 |2259| [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
 |~|=Binary Search=|~|~|~|~|
@@ -45,6 +47,7 @@ This repository is used to track leetcode problems and notes.
 |128| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |Hash Table|Medium|[C++](./hashTable/128_LongestConsecutiveSequence.cpp)|
 |146| [LRU Cache](https://leetcode.com/problems/my-calendar-iii/) |Hash Table, Scan line|Medium|[C++](./hashTable/146_LRUCache.cpp)|
 |981| [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) |Hash Table|Medium|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
+|2347| [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) |Hash Table|Easy|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
 |2357| [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) |Hash Table|Easy|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
 |~|=Bit Manipulation=|~|~|~|~|
 |191| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) |Bit Manipulation|Easy|[C++](./bitManipulation/191_Numberof1Bits.cpp)|
@@ -72,6 +75,7 @@ This repository is used to track leetcode problems and notes.
 |877| [Stone Game](https://leetcode.com/problems/stone-game/) |DP Game Theory|Medium|[C++](./dp/gameTheory/877_StoneGame.cpp)|
 |1140| [Stone Game II](https://leetcode.com/problems/stone-game-ii/) |DP Game Theory|Medium|[C++](./dp/gameTheory/1140_StoneGameII.cpp)|
 |91| [Decode Ways](https://leetcode.com/problems/decode-ways/) |DP|Medium|[C++](./dp/91_DecodeWays.cpp)|
+|309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |DP Game Theory|Medium|[C++](./dp/115_DistinctSubsequences.cpp)|\*|
 |322| [Coin Change](https://leetcode.com/problems/coin-change/) |DP|Medium|[C++](./dp/322_CoinChange.cpp)|\*|
 |1155| [1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) |DP|Medium|[C++](./dp/1155_NumberofDiceRollsWithTargetSum.cpp)|\*|
 |~|=Graph=|~|~|~|~|
