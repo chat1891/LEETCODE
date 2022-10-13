@@ -23,6 +23,7 @@ This repository is used to track leetcode problems and notes.
 |167| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |Array, Two pointers|Medium|[C++](./Arrays/167_TwoSumII-InputArrayIsSorted.cpp)|
 |334| [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) |Array|Medium|[C++](./Arrays/167_TwoSumII-InputArrayIsSorted.cpp)|
 |353| [Design Snake Game](https://leetcode.com/problems/design-snake-game/) |Array, Deque|Medium|[C++](./Arrays/353_DesignSnakeGame.cpp)|\*|
+|836| [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) |Array|Easy|[C++](./Arrays/836_RectangleOverlap.cpp)||
 |1710| [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|Array, Sort|Easy|[C++](./Arrays/1710_MaximumUnitsonaTruck.cpp)|
 |1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) |Array|Easy|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
 |2279| [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) |Array, Sort|Medium|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
@@ -33,10 +34,15 @@ This repository is used to track leetcode problems and notes.
 |344| [Reverse String](https://leetcode.com/problems/reverse-string/)|String|Easy|[C++](./string/344_ReverseString.cpp)|
 |696| [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|String|Easy|[C++](./string/696_CountBinarySubstrings.cpp)|
 |937| [ReReorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|String|Medium|[C++](./string/937_ReorderDatainLogFiles.cpp)|
+|1268| [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|String|Medium|[C++](./string/1268_SearchSuggestionsSystem.cpp)|\*|
 |1328| [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|String|Medium|[C++](./string/1328_BreakaPalindrome.cpp)|
 |1592| [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|String|Easy|[C++](./string/1592_RearrangeSpacesBetweenWords.cpp)|
 |2000| [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
 |2259| [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
+|=|Aggregate Substring|=|=|=|=|
+|828| [Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|String, Aggregate Substring|Hard|[C++](./string/828_CountUniqueCharactersofAllSubstringsofaGivenString.cpp)|\*|
+|2063| [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|String, Aggregate Substring|Medium|[C++](./string/2063_VowelsofAllSubstrings.cpp)|
+|2262| [Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string/)|String, Aggregate Substring|Hard|[C++](./string/2262_TotalAppealofAString.cpp)|\*|
 |~|=Binary Search=|~|~|~|~|
 |1283| [Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|Binary Search|Medium|[C++](./binarySearch/1283_FindtheSmallestDivisorGivenaThreshold.cpp)|
 |1482| [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|Binary Search|Medium|[C++](./binarySearch/1482_MinimumNumberofDaystoMakemBouquets.cpp)|
@@ -101,6 +107,12 @@ This repository is used to track leetcode problems and notes.
 |1603| [Design Parking System](https://leetcode.com/problems/design-parking-system/) |Design, Counting|Easy|[C++](./design/1603_DesignParkingSystem.cpp)||
 ~|=Greedy=|~|~|~|~|
 |135| [Candy](https://leetcode.com/problems/design-parking-system/) |Greedy|Hard|[C++](./greedy/135_Candy.cpp)||
+
+# Classic topics
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|~|=Parentheses=|~|~|~|~|
+
 
 
 # 75 top questions from blind
