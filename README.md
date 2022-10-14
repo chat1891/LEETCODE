@@ -44,6 +44,7 @@ This repository is used to track leetcode problems and notes.
 |2259| [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
 
 * ``Aggregate Substring``
+
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |828| [Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|String, Aggregate Substring|Hard|[C++](./string/828_CountUniqueCharactersofAllSubstringsofaGivenString.cpp)|\*|
@@ -61,13 +62,19 @@ This repository is used to track leetcode problems and notes.
 |---| ------ | -------- | ---------- | -------- | -- |
 |340| [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) |Sliding Window, String|Medium|[C++](./dp/twoPointers/slidingWindow/340_LongestSubstringwithAtMostKDistinctCharacters.cpp)|
 |1578| [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) |Two Pointers|Medium|[C++](./dp/twoPointers/1578_MinimumTimetoMakeRopeColorful.cpp)|
-|~|=Hash Table=|~|~|~|~|
+
+## Hash Table
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
 |128| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |Hash Table|Medium|[C++](./hashTable/128_LongestConsecutiveSequence.cpp)|
 |146| [LRU Cache](https://leetcode.com/problems/my-calendar-iii/) |Hash Table, Scan line|Medium|[C++](./hashTable/146_LRUCache.cpp)|
 |981| [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) |Hash Table|Medium|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
 |2347| [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) |Hash Table|Easy|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
 |2357| [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) |Hash Table|Easy|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
-|~|=Bit Manipulation=|~|~|~|~|
+
+## Bit Manipulation
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
 |191| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) |Bit Manipulation|Easy|[C++](./bitManipulation/191_Numberof1Bits.cpp)|
 |268| [Missing Number](https://leetcode.com/problems/missing-number/) |Bit Manipulation|Easy|[C++](./bitManipulation/268_MissingNumber.cpp)|
 |338| [Counting Bits](https://leetcode.com/problems/counting-bits/) |Bit Manipulation|Easy|[C++](./bitManipulation/338_CountingBits.cpp)|
@@ -90,7 +97,10 @@ This repository is used to track leetcode problems and notes.
 |112| [Path Sum](https://leetcode.com/problems/path-sum/) |Binary Tree, DFS, BFS|Easy|[C++](./Tree/traversal/112_PathSum.cpp)|
 |623| [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) |Binary Tree, BFS|Medium|[C++](./Tree/traversal/623_AddOneRowtoTree.cpp)|
 |863| [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) |Binary Tree, BFS|Medium|[C++](./Tree/traversal/863_AllNodesDistanceKinBinaryTree.cpp)|\*|
-|~|=Interval=|~|~|~|~|
+
+## Interval
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
 |732| [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) |Interval|Hard|[C++](./interval/732_MyCalendarIII.cpp)|\*|
 
 
@@ -101,7 +111,10 @@ This repository is used to track leetcode problems and notes.
 |309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |DP|Medium|[C++](./dp/115_DistinctSubsequences.cpp)|\*|
 |322| [Coin Change](https://leetcode.com/problems/coin-change/) |DP|Medium|[C++](./dp/322_CoinChange.cpp)|\*|
 |1155| [1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) |DP|Medium|[C++](./dp/1155_NumberofDiceRollsWithTargetSum.cpp)|\*|
-|~|=Graph=|~|~|~|~|
+
+## Graph
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
 |210| [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) |Graph, BFS|Medium|[C++](./graph/bfs/210_CourseScheduleII.cpp)|\*|
 |399| [Evaluate Division](https://leetcode.com/problems/evaluate-division/) |Graph, DFS|Medium|[C++](./graph/dfs/399_EvaluateDivision.cpp)|\*|
 |841| [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) |Graph, DFS|Medium|[C++](./graph/dfs/841_KeysandRooms.cpp)|
@@ -109,6 +122,7 @@ This repository is used to track leetcode problems and notes.
 |1615| [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/) |Graph|Medium|[C++](./graph/bfs/1091_ShortestPathinBinaryMatrix.cpp)|\*|
 
 * ``Game Theory``
+
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |10| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) |DP Game Theory|Hard|[C++](./dp/gameTheory/10_RegularExpressionMatching.cpp)|
