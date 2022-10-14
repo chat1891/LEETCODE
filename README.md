@@ -66,6 +66,7 @@ This repository is used to track leetcode problems and notes.
 |25| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) |Linked List|Hard|[C++](./linkedList/25_ReverseNodesinkGroup.cpp)|
 |141| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) |Linked List, Two Pointers|Easy|[C++](./linkedList/fastSlowPointer/141_LinkedListCycle.cpp)|
 |237| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) |Linked List|Medium|[C++](./linkedList/237_DeleteNodeinaLinkedList.cpp)|
+|2095| [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) |Linked List|Medium|[C++](./linkedList/2095_DeletetheMiddleNodeofaLinkedList.cpp)|
 |287| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) |Linked List, Two Pointers|Easy|[C++](./linkedList/fastSlowPointer/287_FindtheDuplicateNumber.cpp)|
 |~|=Tree=|~|~|~|~|
 |112| [Path Sum](https://leetcode.com/problems/path-sum/) |Binary Tree, DFS, BFS|Easy|[C++](./Tree/traversal/112_PathSum.cpp)|
@@ -74,14 +75,16 @@ This repository is used to track leetcode problems and notes.
 |~|=Interval=|~|~|~|~|
 |732| [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) |Interval|Hard|[C++](./interval/732_MyCalendarIII.cpp)|\*|
 |~|=DP=|~|~|~|~|
+|=|Game Theory|=|=|=|=|
 |10| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) |DP Game Theory|Hard|[C++](./dp/gameTheory/10_RegularExpressionMatching.cpp)|
 |44| [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) |DP Game Theory|Hard|[C++](./dp/gameTheory/44_WildcardMatching.cpp)|
 |72| [Edit Distance](https://leetcode.com/problems/edit-distance/) |DP Game Theory|Hard|[C++](./dp/gameTheory/72_EditDistance.cpp)|
 |115| [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) |DP Game Theory|Medium|[C++](./dp/gameTheory/115_DistinctSubsequences.cpp)|
 |877| [Stone Game](https://leetcode.com/problems/stone-game/) |DP Game Theory|Medium|[C++](./dp/gameTheory/877_StoneGame.cpp)|
 |1140| [Stone Game II](https://leetcode.com/problems/stone-game-ii/) |DP Game Theory|Medium|[C++](./dp/gameTheory/1140_StoneGameII.cpp)|
+|=|=|=|=|=|=|
 |91| [Decode Ways](https://leetcode.com/problems/decode-ways/) |DP|Medium|[C++](./dp/91_DecodeWays.cpp)|
-|309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |DP Game Theory|Medium|[C++](./dp/115_DistinctSubsequences.cpp)|\*|
+|309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |DP|Medium|[C++](./dp/115_DistinctSubsequences.cpp)|\*|
 |322| [Coin Change](https://leetcode.com/problems/coin-change/) |DP|Medium|[C++](./dp/322_CoinChange.cpp)|\*|
 |1155| [1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) |DP|Medium|[C++](./dp/1155_NumberofDiceRollsWithTargetSum.cpp)|\*|
 |~|=Graph=|~|~|~|~|
@@ -112,6 +115,12 @@ This repository is used to track leetcode problems and notes.
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |~|=Parentheses=|~|~|~|~|
+|20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |Stack|Easy|[C++](./classicTopics/parentheses/20_ValidParentheses.cpp)|\*|
+|32| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) |Stack, Two Pass|Hard|[C++](./classicTopics/parentheses/32_LongestValidParentheses.cpp)|\*|
+|856| [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) |Stack|Medium|[C++](./classicTopics/parentheses/856_ScoreofParentheses.cpp)|\*|
+|1249| [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) |Stack|Medium|[C++](./classicTopics/parentheses/1249_MinimumRemovetoMakeValidParentheses.cpp)|\*|
+|921| [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) |Rolling state|Medium|[C++](./classicTopics/parentheses/921_MinimumAddtoMakeParenthesesValid.cpp)|\*|
+|1614| [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) |Rolling state|Medium|[C++](./classicTopics/parentheses/1614_MaximumNestingDepthoftheParentheses.cpp)||
 
 
 
