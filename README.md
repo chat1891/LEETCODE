@@ -7,9 +7,9 @@ This repository is used to track leetcode problems and notes.
 	- DP: DP Game Theory, DP
 	- Graph: BFS, DFS
 
+## Array
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
-|~|=Array=|~|~|~|~|
 |16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |Array|Medium|[C++](./Arrays/16_3SumClosest.cpp)|
 |27| [Remove Element](https://leetcode.com/problems/remove-element/) |Array|Easy|[C++](./Arrays/27_RemoveElement.cpp)|
 |41| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) |Array|Hard|[C++](./Arrays/41_FirstMissingPositive.cpp)||
@@ -27,7 +27,10 @@ This repository is used to track leetcode problems and notes.
 |1710| [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|Array, Sort|Easy|[C++](./Arrays/1710_MaximumUnitsonaTruck.cpp)|
 |1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) |Array|Easy|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
 |2279| [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) |Array, Sort|Medium|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
-|~|=String=|~|~|~|~|
+
+## String
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
 |65| [Valid Number](https://leetcode.com/problems/valid-number/)|String|Hard|[C++](./string/65_ValidNumber.cpp)|
 |151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|String|Medium|[C++](./string/151_ReverseWordsinaString.cpp)|
 |249| [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)|String|Medium|[C++](./string/249_GroupShiftedStrings.cpp)|
@@ -39,7 +42,10 @@ This repository is used to track leetcode problems and notes.
 |1592| [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|String|Easy|[C++](./string/1592_RearrangeSpacesBetweenWords.cpp)|
 |2000| [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
 |2259| [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
-|=|Aggregate Substring|=|=|=|=|
+
+### Aggregate Substring
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
 |828| [Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)|String, Aggregate Substring|Hard|[C++](./string/828_CountUniqueCharactersofAllSubstringsofaGivenString.cpp)|\*|
 |2063| [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|String, Aggregate Substring|Medium|[C++](./string/2063_VowelsofAllSubstrings.cpp)|
 |2262| [Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string/)|String, Aggregate Substring|Hard|[C++](./string/2262_TotalAppealofAString.cpp)|\*|
@@ -121,6 +127,8 @@ This repository is used to track leetcode problems and notes.
 |1249| [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) |Stack|Medium|[C++](./classicTopics/parentheses/1249_MinimumRemovetoMakeValidParentheses.cpp)|\*|
 |921| [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) |Rolling state|Medium|[C++](./classicTopics/parentheses/921_MinimumAddtoMakeParenthesesValid.cpp)|\*|
 |1614| [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) |Rolling state|Medium|[C++](./classicTopics/parentheses/1614_MaximumNestingDepthoftheParentheses.cpp)||
+|~|=number of Islands=|~|~|~|~|
+|463| [Island Perimeter](https://leetcode.com/problems/island-perimeter/) |DFS, BFS|Easy|[C++](./classicTopics/numberOfIslands/463_IslandPerimeter.cpp)||
 
 
 
