@@ -40,6 +40,7 @@ This repository is used to track leetcode problems and notes.
 |1268| [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|String|Medium|[C++](./string/1268_SearchSuggestionsSystem.cpp)|\*|
 |1328| [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|String|Medium|[C++](./string/1328_BreakaPalindrome.cpp)|
 |1592| [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|String|Easy|[C++](./string/1592_RearrangeSpacesBetweenWords.cpp)|
+|1832| [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|String|Easy|[C++](./string/1832_CheckiftheSentenceIsPangram.cpp)|
 |2000| [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
 |2259| [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)|String|Easy|[C++](./string/2000_ReversePrefixofWord.cpp)|
 
@@ -57,11 +58,22 @@ This repository is used to track leetcode problems and notes.
 |1283| [Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|Binary Search|Medium|[C++](./binarySearch/1283_FindtheSmallestDivisorGivenaThreshold.cpp)|
 |1482| [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|Binary Search|Medium|[C++](./binarySearch/1482_MinimumNumberofDaystoMakemBouquets.cpp)|
 
+## BackTracking
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|79| [Word Search](https://leetcode.com/problems/word-search/) |BackTracking|Medium|[C++](./backTracking/79_WordSearch.cpp)|\*|
+
 ## Two Pointers
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
-|340| [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) |Sliding Window, String|Medium|[C++](./dp/twoPointers/slidingWindow/340_LongestSubstringwithAtMostKDistinctCharacters.cpp)|
 |1578| [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) |Two Pointers|Medium|[C++](./dp/twoPointers/1578_MinimumTimetoMakeRopeColorful.cpp)|
+
+* ``Trie, prefix tree``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|340| [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) |Sliding Window, String|Medium|[C++](./dp/twoPointers/slidingWindow/340_LongestSubstringwithAtMostKDistinctCharacters.cpp)|
+
 
 ## Hash Table
 |num|Question| Category | Difficulty | Solution |Like|
@@ -98,11 +110,19 @@ This repository is used to track leetcode problems and notes.
 |623| [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) |Binary Tree, BFS|Medium|[C++](./Tree/traversal/623_AddOneRowtoTree.cpp)|
 |863| [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) |Binary Tree, BFS|Medium|[C++](./Tree/traversal/863_AllNodesDistanceKinBinaryTree.cpp)|\*|
 
+* ``Trie, prefix tree``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|208| [ Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) |Trie|Medium|[C++](./Tree/trie/208_ImplementTriePrefixTree.cpp)|\*|
+|211| [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) |Trie|Medium|[C++](./Tree/trie/211_DesignAddandSearchWordsDataStructure.cpp)|\*|
+|212| [Word Search II](https://leetcode.com/problems/word-search-ii/) |Trie|Hard|[C++](./Tree/trie/212_WordSearchII.cpp)|\*|
+
+
 ## Interval
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |732| [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) |Interval|Hard|[C++](./interval/732_MyCalendarIII.cpp)|\*|
-
 
 ## DP
 |num|Question| Category | Difficulty | Solution |Like|
@@ -110,7 +130,8 @@ This repository is used to track leetcode problems and notes.
 |91| [Decode Ways](https://leetcode.com/problems/decode-ways/) |DP|Medium|[C++](./dp/91_DecodeWays.cpp)|
 |309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |DP|Medium|[C++](./dp/115_DistinctSubsequences.cpp)|\*|
 |322| [Coin Change](https://leetcode.com/problems/coin-change/) |DP|Medium|[C++](./dp/322_CoinChange.cpp)|\*|
-|1155| [1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) |DP|Medium|[C++](./dp/1155_NumberofDiceRollsWithTargetSum.cpp)|\*|
+|1155| [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) |DP|Medium|[C++](./dp/1155_NumberofDiceRollsWithTargetSum.cpp)|\*|
+|1531| [String Compression II](https://leetcode.com/problems/string-compression-ii/) |DP|Medium|[C++](./dp/1531_StringCompressionII.cpp)|\*|
 
 ## Graph
 |num|Question| Category | Difficulty | Solution |Like|
@@ -141,7 +162,10 @@ This repository is used to track leetcode problems and notes.
 |204| [Count Primes](https://leetcode.com/problems/count-primes/) |Math|Medium|[C++](./math/204_CountPrimes.cpp)|
 |976| [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) |Math|Easy|[C++](./math/204_CountPrimes.cpp)|
 |1304| [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |Math|Easy|[C++](./math/1304_FindNUniqueIntegersSumuptoZero.cpp)|
-~|=Monotinic Stack=|~|~|~|~|
+
+## Monotinic Stack
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
 |84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |Monotinic Stack|Hard|[C++](./monotonic_stack/84_LargestRectangleinHistogram.cpp)|\*|
 |85| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) |Monotinic Stack|Hard|[C++](./monotonic_stack/85_MaximalRectangle.cpp)||
 |907| [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) |Monotinic Stack|Medium|[C++](./monotonic_stack/85_MaximalRectangle.cpp)||
@@ -157,6 +181,8 @@ This repository is used to track leetcode problems and notes.
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |135| [Candy](https://leetcode.com/problems/design-parking-system/) |Greedy|Hard|[C++](./greedy/135_Candy.cpp)||
+
+
 
 # Classic topics
 ## Parentheses
