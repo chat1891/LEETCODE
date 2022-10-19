@@ -68,12 +68,12 @@ This repository is used to track leetcode problems and notes.
 |---| ------ | -------- | ---------- | -------- | -- |
 |1578| [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) |Two Pointers|Medium|[C++](./dp/twoPointers/1578_MinimumTimetoMakeRopeColorful.cpp)|
 
-* ``Trie, prefix tree``
+* ``Sliding Window``
 
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |340| [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) |Sliding Window, String|Medium|[C++](./dp/twoPointers/slidingWindow/340_LongestSubstringwithAtMostKDistinctCharacters.cpp)|
-
+|424| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) |Sliding Window, String|Medium|[C++](./dp/twoPointers/slidingWindow/424_LongestRepeatingCharacterReplacement.cpp)|\*|
 
 ## Hash Table
 |num|Question| Category | Difficulty | Solution |Like|
@@ -163,14 +163,27 @@ This repository is used to track leetcode problems and notes.
 |976| [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) |Math|Easy|[C++](./math/204_CountPrimes.cpp)|
 |1304| [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |Math|Easy|[C++](./math/1304_FindNUniqueIntegersSumuptoZero.cpp)|
 
-## Monotinic Stack
+## Stack and Queue
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
-|84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |Monotinic Stack|Hard|[C++](./monotonic_stack/84_LargestRectangleinHistogram.cpp)|\*|
-|85| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) |Monotinic Stack|Hard|[C++](./monotonic_stack/85_MaximalRectangle.cpp)||
-|907| [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) |Monotinic Stack|Medium|[C++](./monotonic_stack/85_MaximalRectangle.cpp)||
-|2104| [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) |Monotinic Stack|Hard|[C++](./monotonic_stack/2104_SumofSubarrayRanges.cpp)|\*\*|
-|2334| [Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/) |Monotinic Stack|Hard|[C++](./monotonic_stack/2334_SubarrayWithElementsGreaterThanVaryingThreshold.cpp)||
+|895| [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) |Stack|Hard|[C++](./stack_queue/895_MaximumFrequencyStack.cpp)||
+|1381| [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) |Stack|Medium|[C++](./stack_queue/1381_DesignaStackWithIncrementOperation.cpp)||
+
+* ``Priority Queue``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|692| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |Priority Queue|Medium|[C++](./stack_queue/priorityQueue/692_TopKFrequentWords.cpp)|\*|
+
+* ``Monotinic Stack``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |Monotinic Stack|Hard|[C++](./stack_queue/monotonic_stack/84_LargestRectangleinHistogram.cpp)|\*|
+|85| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) |Monotinic Stack|Hard|[C++](./stack_queue/monotonic_stack/85_MaximalRectangle.cpp)||
+|907| [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) |Monotinic Stack|Medium|[C++](./stack_queue/monotonic_stack/85_MaximalRectangle.cpp)||
+|2104| [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) |Monotinic Stack|Hard|[C++](./stack_queue/monotonic_stack/2104_SumofSubarrayRanges.cpp)|\*\*|
+|2334| [Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/) |Monotinic Stack|Hard|[C++](./stack_queue/monotonic_stack/2334_SubarrayWithElementsGreaterThanVaryingThreshold.cpp)||
 
 ## Design
 |num|Question| Category | Difficulty | Solution |Like|
