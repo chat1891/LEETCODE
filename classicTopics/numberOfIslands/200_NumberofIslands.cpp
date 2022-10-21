@@ -6,7 +6,7 @@
 
 
 /*
-use bfs
+approach 1 use bfs
 - loop through each cell, 
 - when find a '1', add to queue, for each item go through every valid direction
 if find '1' add to queue, change value to '0', so we dont visit again
@@ -79,13 +79,13 @@ public:
 };
 
 
-//dfs recursive
+//approach 2 dfs recursive
 
 /*
 Time complexity : O(M×N) where M is the number of rows and N is the number of columns.
 Space complexity : worst case O(M×N) in case that the grid map is filled with lands where DFS goes by M×N deep.
 */
-class Solution_2
+class Solution
 {
 public:
     std::vector<std::vector<int>> directions = { {1,0},{0,1},{-1,0},{0,-1} };
@@ -136,8 +136,8 @@ public:
     }
 };
 
-//iterative dfs
-class Solution_3
+//approach 3 iterative dfs
+class Solution
 {
 public:
     std::vector<std::vector<int>> directions = { {1,0},{0,1},{-1,0},{0,-1} };

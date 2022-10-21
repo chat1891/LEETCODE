@@ -2,9 +2,15 @@
 #include <algorithm> 
 #include <queue>
 #include <set>
+#include <unordered_map>
 
-//using priority queue
-class Solution_priority_queue
+
+
+/// <summary>
+/// ====================================================================
+/// approach 1: using priority queue
+/// </summary>
+class Solution
 {
 public:
     int longestConsecutive(std::vector<int>& nums)
@@ -45,7 +51,12 @@ public:
     }
 };
 
-class Solution_slow
+
+/// <summary>
+/// ========================================================================================
+/// approach 2: use sort
+/// </summary>
+class Solution
 {
 public:
     int longestConsecutive(std::vector<int>& nums)
@@ -107,3 +118,114 @@ int longestConsecutive(std::vector<int>& nums)
 
     return max_count;
 }
+
+
+//============================================================================================
+/// <summary>
+/// approach 3: use union find
+/// </summary>
+/*
+intuitive:
+- for each number, if there is num-1, unify num and num -1
+- if there is num+1, unify num and num +1
+- example:
+ [100,4,200,1,3,2]
+ [100]
+ [4]
+ [200]
+ [1]
+ [3], 3+1 =4 which is visited, unify [3,4]
+ [2], 2-1 =1 which is visited, unify [2,1]
+      2+1 =3 which is visited, unify [2,3] -> [1,2,3,4]
+*/
+
+
+class Solution
+{
+public:
+    // use size optimized union find to directly get size
+    class unionFind
+    {
+    private:
+        std::vector<int> parent;
+        int maxCount = 1;
+    public:
+        std::vector<int> unionSize;
+        unionFind(const int& n)
+        {
+            parent = std::vector<int>(n);
+            unionSize = std::vector<int>(n, 1);
+
+            for (int i = 0; i < n; i++)
+            {
+                parent[i] = i;
+            }
+
+        }
+
+        int find(int x)
+        {
+            if (parent[x] != x)
+            {
+                parent[x] = find(parent[x]);
+            }
+            return parent[x];
+        }
+
+        void unify(int x, int y)
+        {
+            int rootx = find(x);
+            int rooty = find(y);
+            if (rootx == rooty) return;
+
+            if (unionSize[rootx] <= unionSize[rooty])
+            {
+                parent[rootx] = parent[rooty];
+                unionSize[rooty] += unionSize[rootx];
+                maxCount = std::max(maxCount, unionSize[rooty]);
+            }
+            else
+            {
+                parent[rooty] = parent[rootx];
+                unionSize[rootx] += unionSize[rooty];
+                maxCount = std::max(maxCount, unionSize[rootx]);
+            }
+        }
+
+        int getMaxCount()
+        {
+            return maxCount;
+        }
+
+    };
+
+    int longestConsecutive(std::vector<int>& nums)
+    {
+        int n = nums.size();
+        unionFind uf = unionFind(n);
+        std::unordered_map<int, int> visited; //number, index,
+        //*have to store index, because it is possible number is negative
+
+        if (n < 2) return n;
+
+        for (int i = 0; i < n; i++)
+        {
+            //*avoid duplicated number with different index
+            if (visited.find(nums[i]) != visited.end())
+                continue;
+
+            visited[nums[i]] = i;
+            if (visited.find(nums[i] - 1) != visited.end())
+            {
+                uf.unify(i, visited[nums[i] - 1]);
+            }
+
+            if (visited.find(nums[i] + 1) != visited.end())
+            {
+                uf.unify(i, visited[nums[i] + 1]);
+            }
+        }
+
+        return uf.getMaxCount();
+    }
+};

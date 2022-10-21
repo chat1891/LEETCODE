@@ -1,7 +1,58 @@
 #include<vector>
 #include<queue>
 
+
+class Solution
+{
+public:
+    int m;
+    int n;
+    //only check right and down neighbor
+    //left and up neighbor covered by previous square
+    std::vector<std::vector<int>> directions = { {0,1},{1,0} };
+    int res = 0;
+
+    bool isValid(const int& i, const int& j)
+    {
+        if (i < 0 || i >= m || j < 0 || j >= n) return false;
+        return true;
+    }
+
+    int islandPerimeter(std::vector<std::vector<int>>& grid)
+    {
+        m = grid.size();
+        n = grid[0].size();
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if (grid[i][j] == 1)
+                {
+                    //each square adds 4 edges
+                    res += 4;
+                    //check its right and down neighbor
+                    for (auto& dir : directions)
+                    {
+                        int newx = i + dir[0];
+                        int newy = j + dir[1];
+                        //if find another land, minus 2 edges
+                        if (isValid(newx, newy) && grid[newx][newy] == 1)
+                        {
+                            res -= 2;
+                        }
+                    }
+                }
+            }
+        }
+
+        return res;
+    }
+};
+
+//===============================
 /*
+approach 2
 bfs
 - every square has 4 edges
 - set visited square to -1

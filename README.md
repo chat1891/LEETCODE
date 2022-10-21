@@ -80,6 +80,7 @@ This repository is used to track leetcode problems and notes.
 |---| ------ | -------- | ---------- | -------- | -- |
 |128| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |Hash Table|Medium|[C++](./hashTable/128_LongestConsecutiveSequence.cpp)|
 |146| [LRU Cache](https://leetcode.com/problems/my-calendar-iii/) |Hash Table, Scan line|Medium|[C++](./hashTable/146_LRUCache.cpp)|
+|219| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) |Hash Table|Easy|[C++](./hashTable/219_ContainsDuplicateII.cpp)|\*|
 |981| [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) |Hash Table|Medium|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
 |2347| [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) |Hash Table|Easy|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
 |2357| [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) |Hash Table|Easy|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
@@ -114,9 +115,11 @@ This repository is used to track leetcode problems and notes.
 
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
+|000| [Trie Template]() |Trie||[C++](./templates/Trie.cpp)|\*\*|
 |208| [ Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) |Trie|Medium|[C++](./Tree/trie/208_ImplementTriePrefixTree.cpp)|\*|
 |211| [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) |Trie|Medium|[C++](./Tree/trie/211_DesignAddandSearchWordsDataStructure.cpp)|\*|
 |212| [Word Search II](https://leetcode.com/problems/word-search-ii/) |Trie|Hard|[C++](./Tree/trie/212_WordSearchII.cpp)|\*|
+|421| [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) |Bitwise Trie|Medium|[C++](./Tree/trie/421_MaximumXORofTwoNumbersinanArray.cpp)|\*|
 
 
 ## Interval
@@ -156,6 +159,7 @@ This repository is used to track leetcode problems and notes.
 ## Math
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
+|12| [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) |Math|Medium|[C++](./math/12_IntegertoRoman.cpp)|
 |67| [Add Binary](https://leetcode.com/problems/add-binary/) |Math|Easy|[C++](./math/67_AddBinary.cpp)|
 |168| [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) |Math|Easy|[C++](./math/168_ExcelSheetColumnTitle.cpp)|
 |171| [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) |Math|Easy|[C++](./math/171_ExcelSheetColumnNumber.cpp)|
@@ -195,7 +199,12 @@ This repository is used to track leetcode problems and notes.
 |---| ------ | -------- | ---------- | -------- | -- |
 |135| [Candy](https://leetcode.com/problems/design-parking-system/) |Greedy|Hard|[C++](./greedy/135_Candy.cpp)||
 
-
+## Union Find
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|000| [Union Find Template]() |Union Find||[C++](./templates/UnionFind.cpp)|\*\*|
+|128| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |Union Find|Medium|[C++](./hashTable/128_LongestConsecutiveSequence.cpp)|\*\*|
+|305| [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) |Union Find|[C++](./unionFind/305_NumberofIslandsII.cpp)|\*|
 
 # Classic topics
 ## Parentheses
@@ -211,7 +220,17 @@ This repository is used to track leetcode problems and notes.
 ## Number of Islands
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
+|200| [Number of Islands](https://leetcode.com/problems/number-of-islands/) |DFS, BFS|Medium|[C++](./classicTopics/numberOfIslands/200_NumberofIslands.cpp)|\*|
+|305| [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) |Union Find|Medium|[C++](./unionFind/305_NumberofIslandsII.cpp)|\*|
 |463| [Island Perimeter](https://leetcode.com/problems/island-perimeter/) |DFS, BFS|Easy|[C++](./classicTopics/numberOfIslands/463_IslandPerimeter.cpp)||
+|547| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) |Union Find|Medium|[C++](./unionFind/547_NumbeofProvinces.cpp)|\*|
+|694| [Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) |DFS, BFS|Medium|[C++](./classicTopics/numberOfIslands/694_NumberofDistinctIslands.cpp)|\*|
+|695| [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) |DFS, BFS|Medium|[C++](./classicTopics/numberOfIslands/695_MaxAreaofIsland.cpp)||
+|827| [Making A Large Island](https://leetcode.com/problems/making-a-large-island/) |Union Find|Hard|[C++](./classicTopics/numberOfIslands/827_MakingALargeIsland.cpp)|\*|
+|934| [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) |DFS, BFS|Medium|[C++](./classicTopics/numberOfIslands/934_ShortestBridge.cpp)|\*|
+|1020| [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) |DFS, BFS|Medium|[C++](./classicTopics/numberOfIslands/1020_NumberofEnclaves.cpp)|\*|
+|1254| [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) |DFS|Medium|[C++](./classicTopics/numberOfIslands/1254_NumberofClosedIslands.cpp)|\*|
+
 
 
 
