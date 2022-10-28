@@ -4,6 +4,13 @@ using namespace std;
 #include <queue>
 
 
+/*
+follow up:
+can ask the relationship between n and k, if n=200, k=2
+we can optimize to find minimum 2 numbers, and rest is the answer
+*/
+
+
 //use bucket sort
 //https://www.youtube.com/watch?v=YPTqKIgVk-k
 class Solution_bucket
@@ -53,7 +60,14 @@ public:
     }
 };
 
-//minHeap
+
+//===============================================================================
+/// <summary>
+/// APPROACH 2 minHeap
+/// time: O(n logk), k<n
+/// when n=k -> O(n)
+/// space O(n+k)
+/// </summary>
 class Solution
 {
 public:
