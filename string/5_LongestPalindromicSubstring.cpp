@@ -150,11 +150,11 @@ row = i; column = j, substring from i to j
 
       j
       b a b a d
-i   b 1 F T F F     ^   b, ba, bab, baba, babad
-    a   1 F T F     ^   a, ab, aba, abad
-    b     1 F F     ^   b, ba, bad 
-    a       1 F     ^   a, ad
-    d         1     ^   d
+i   b T F T F F     ^   b, ba, bab, baba, babad
+    a   T F T F     ^   a, ab, aba, abad
+    b     T F F     ^   b, ba, bad 
+    a       T F     ^   a, ad
+    d         T     ^   d
 
 
     Time Complexity - O(N^2), 

@@ -71,3 +71,62 @@ public:
         return res;
     }
 };
+
+//======================================================
+//optimization for check if substring is palindrome using dp
+class Solution
+{
+public:
+    std::vector<std::vector<std::string>> res;
+    std::vector<std::vector<bool>> isPalinMemo;
+    int n;
+    //use O(n^2)  to pre calculate palindrome for each substring
+    //if check abcba is palindrome, start =0, end =4
+    //         ^   ^          
+    //check if bcb is palindrome: a(bcb)a
+    //                              ^ ^   start+1  end-1
+    void createIsPalindromeMemo(std::string& s)
+    {
+        for (int i = n - 1; i >= 0; i--)
+        {
+            isPalinMemo[i][i] = true;
+            for (int j = i + 1; j <= s.length(); j++)
+            {
+                if (s[i] == s[j] && (j - i <= 2 || isPalinMemo[i + 1][j - 1]))
+                {
+                    isPalinMemo[i][j] = true;
+                }
+            }
+        }
+    }
+
+    void dfs(std::string& s, int left, std::vector<std::string>& cur)
+    {
+        if (left == s.length())
+        {
+            res.push_back(cur);
+            return;
+        }
+
+        for (int right = left; right < s.length(); right++)
+        {
+            //it is expensive to check the substring is palindrome
+            if (isPalinMemo[left][right])
+            {
+                cur.push_back(s.substr(left, right - left + 1));
+                dfs(s, right + 1, cur);
+                cur.pop_back();
+            }
+        }
+    }
+
+    std::vector<std::vector<std::string>> partition(std::string s)
+    {
+        n = s.length();
+        isPalinMemo = std::vector<std::vector<bool>>(n, std::vector<bool>(n, false));
+        createIsPalindromeMemo(s);
+        std::vector<std::string> c;
+        dfs(s, 0, c);
+        return res;
+    }
+};

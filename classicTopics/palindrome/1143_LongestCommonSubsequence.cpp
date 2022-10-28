@@ -2,6 +2,9 @@
 #include <vector>
 
 //https://www.youtube.com/watch?v=Ua0GhsJSlWM
+// official solution from leetcode is good
+//https://leetcode.com/problems/longest-common-subsequence/solution/
+//check google doc
 
 /*
 bottom up dp, check google doc notes
@@ -10,6 +13,9 @@ bottom up dp, check google doc notes
 - when text[i] != text [j]
     dp[i][j] = std::max(dp[i+1][j],dp[i][j+1]);
 
+    
+Time O(m * n)
+space O(m * n)
 */
 class Solution
 {
