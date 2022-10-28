@@ -7,7 +7,7 @@ This repository is used to track leetcode problems and notes.
 	- DP: DP Game Theory, DP
 	- Graph: BFS, DFS
 
-## Array
+### Array
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |Array|Medium|[C++](./Arrays/16_3SumClosest.cpp)|
@@ -23,12 +23,13 @@ This repository is used to track leetcode problems and notes.
 |167| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |Array, Two pointers|Medium|[C++](./Arrays/167_TwoSumII-InputArrayIsSorted.cpp)|
 |334| [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) |Array|Medium|[C++](./Arrays/167_TwoSumII-InputArrayIsSorted.cpp)|
 |353| [Design Snake Game](https://leetcode.com/problems/design-snake-game/) |Array, Deque|Medium|[C++](./Arrays/353_DesignSnakeGame.cpp)|\*|
+|645| [Set Mismatch](https://leetcode.com/problems/set-mismatch/) |Array|Easy|[C++](./Arrays/645_SetMismatch.cpp)||
 |836| [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) |Array|Easy|[C++](./Arrays/836_RectangleOverlap.cpp)||
 |1710| [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|Array, Sort|Easy|[C++](./Arrays/1710_MaximumUnitsonaTruck.cpp)|
 |1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) |Array|Easy|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
 |2279| [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) |Array, Sort|Medium|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
 
-## String
+### String
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |65| [Valid Number](https://leetcode.com/problems/valid-number/)|String|Hard|[C++](./string/65_ValidNumber.cpp)|
@@ -52,18 +53,18 @@ This repository is used to track leetcode problems and notes.
 |2063| [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)|String, Aggregate Substring|Medium|[C++](./string/2063_VowelsofAllSubstrings.cpp)|
 |2262| [Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string/)|String, Aggregate Substring|Hard|[C++](./string/2262_TotalAppealofAString.cpp)|\*|
 
-## Binary Search
+### Binary Search
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |1283| [Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|Binary Search|Medium|[C++](./binarySearch/1283_FindtheSmallestDivisorGivenaThreshold.cpp)|
 |1482| [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|Binary Search|Medium|[C++](./binarySearch/1482_MinimumNumberofDaystoMakemBouquets.cpp)|
 
-## BackTracking
+### BackTracking
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |79| [Word Search](https://leetcode.com/problems/word-search/) |BackTracking|Medium|[C++](./backTracking/79_WordSearch.cpp)|\*|
 
-## Two Pointers
+### Two Pointers
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |1578| [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) |Two Pointers|Medium|[C++](./dp/twoPointers/1578_MinimumTimetoMakeRopeColorful.cpp)|
@@ -75,7 +76,7 @@ This repository is used to track leetcode problems and notes.
 |340| [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) |Sliding Window, String|Medium|[C++](./dp/twoPointers/slidingWindow/340_LongestSubstringwithAtMostKDistinctCharacters.cpp)|
 |424| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) |Sliding Window, String|Medium|[C++](./dp/twoPointers/slidingWindow/424_LongestRepeatingCharacterReplacement.cpp)|\*|
 
-## Hash Table
+### Hash Table
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |128| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |Hash Table|Medium|[C++](./hashTable/128_LongestConsecutiveSequence.cpp)|
@@ -85,7 +86,7 @@ This repository is used to track leetcode problems and notes.
 |2347| [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) |Hash Table|Easy|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
 |2357| [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) |Hash Table|Easy|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
 
-## Bit Manipulation
+### Bit Manipulation
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |191| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) |Bit Manipulation|Easy|[C++](./bitManipulation/191_Numberof1Bits.cpp)|
@@ -94,7 +95,7 @@ This repository is used to track leetcode problems and notes.
 |371| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) |Bit Manipulation|Medium|[C++](./bitManipulation/371_SumofTwoIntegers.cpp)|
 |1404| [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) |Bit Manipulation, String|Medium|[C++](./bitManipulation/1404_NumberofStepstoReduceaNumberinBinaryRepresentationtoOne.cpp)|
 
-## Linked List
+### Linked List
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |23| [Merge k Sorted List](https://leetcode.com/problems/merge-k-sorted-lists/) |Linked List|Hard|[C++](./linkedList/23_MergekSortedList.cpp)|
@@ -104,12 +105,27 @@ This repository is used to track leetcode problems and notes.
 |2095| [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) |Linked List|Medium|[C++](./linkedList/2095_DeletetheMiddleNodeofaLinkedList.cpp)|
 |287| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) |Linked List, Two Pointers|Easy|[C++](./linkedList/fastSlowPointer/287_FindtheDuplicateNumber.cpp)|
 
-## Tree
+### Tree
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |112| [Path Sum](https://leetcode.com/problems/path-sum/) |Binary Tree, DFS, BFS|Easy|[C++](./Tree/traversal/112_PathSum.cpp)|
 |623| [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) |Binary Tree, BFS|Medium|[C++](./Tree/traversal/623_AddOneRowtoTree.cpp)|
 |863| [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) |Binary Tree, BFS|Medium|[C++](./Tree/traversal/863_AllNodesDistanceKinBinaryTree.cpp)|\*|
+
+
+* ``Tree Traversal``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|653| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) |Hash Table, BFS|Easy|[C++](./Tree/traversal/653_TwoSumIVInputisaBST.cpp)|
+
+* ``Binary Search Tree``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|0| [Binary Search Tree Template]() |||[C++](./templates/BinarySearchTree.cpp)||
+|173| [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) |DFS, BFS|Easy|[C++](./Tree/bst/173_BinarySearchTreeIterator.cpp)|\*\*|
+|653| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) |Hash Table, BFS|Easy|[C++](./Tree/bst/653_TwoSumIVInputisaBST.cpp)|\*\*|
 
 * ``Trie, prefix tree``
 
@@ -122,12 +138,12 @@ This repository is used to track leetcode problems and notes.
 |421| [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) |Bitwise Trie|Medium|[C++](./Tree/trie/421_MaximumXORofTwoNumbersinanArray.cpp)|\*|
 
 
-## Interval
+### Interval
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |732| [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) |Interval|Hard|[C++](./interval/732_MyCalendarIII.cpp)|\*|
 
-## DP
+### DP
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |91| [Decode Ways](https://leetcode.com/problems/decode-ways/) |DP|Medium|[C++](./dp/91_DecodeWays.cpp)|
@@ -136,7 +152,7 @@ This repository is used to track leetcode problems and notes.
 |1155| [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) |DP|Medium|[C++](./dp/1155_NumberofDiceRollsWithTargetSum.cpp)|\*|
 |1531| [String Compression II](https://leetcode.com/problems/string-compression-ii/) |DP|Medium|[C++](./dp/1531_StringCompressionII.cpp)|\*|
 
-## Graph
+### Graph
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |210| [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) |Graph, BFS|Medium|[C++](./graph/bfs/210_CourseScheduleII.cpp)|\*|
@@ -156,7 +172,7 @@ This repository is used to track leetcode problems and notes.
 |877| [Stone Game](https://leetcode.com/problems/stone-game/) |DP Game Theory|Medium|[C++](./dp/gameTheory/877_StoneGame.cpp)|
 |1140| [Stone Game II](https://leetcode.com/problems/stone-game-ii/) |DP Game Theory|Medium|[C++](./dp/gameTheory/1140_StoneGameII.cpp)|
 
-## Math
+### Math
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |12| [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) |Math|Medium|[C++](./math/12_IntegertoRoman.cpp)|
@@ -164,10 +180,11 @@ This repository is used to track leetcode problems and notes.
 |168| [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) |Math|Easy|[C++](./math/168_ExcelSheetColumnTitle.cpp)|
 |171| [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) |Math|Easy|[C++](./math/171_ExcelSheetColumnNumber.cpp)|
 |204| [Count Primes](https://leetcode.com/problems/count-primes/) |Math|Medium|[C++](./math/204_CountPrimes.cpp)|
+|523| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) |Math|Medium|[C++](./math/523_ContinuousSubarraySum.cpp)|
 |976| [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) |Math|Easy|[C++](./math/204_CountPrimes.cpp)|
 |1304| [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |Math|Easy|[C++](./math/1304_FindNUniqueIntegersSumuptoZero.cpp)|
 
-## Stack and Queue
+### Stack and Queue
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |895| [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) |Stack|Hard|[C++](./stack_queue/895_MaximumFrequencyStack.cpp)||
@@ -189,25 +206,38 @@ This repository is used to track leetcode problems and notes.
 |2104| [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) |Monotinic Stack|Hard|[C++](./stack_queue/monotonic_stack/2104_SumofSubarrayRanges.cpp)|\*\*|
 |2334| [Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/) |Monotinic Stack|Hard|[C++](./stack_queue/monotonic_stack/2334_SubarrayWithElementsGreaterThanVaryingThreshold.cpp)||
 
-## Design
+### Heap
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|347| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |Heap|Medium|[C++](./heap/347_TopKFrequentElements.cpp)|\*|
+|658| [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) |Heap|Medium|[C++](./heap/658_FindKClosestElements.cpp)|\*|
+|1642| [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) |Heap|Medium|[C++](./heap/1642_FurthestBuildingYouCanReach.cpp)|\*|
+
+### Design
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |1603| [Design Parking System](https://leetcode.com/problems/design-parking-system/) |Design, Counting|Easy|[C++](./design/1603_DesignParkingSystem.cpp)||
 
-## Greedy
+### Greedy
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |135| [Candy](https://leetcode.com/problems/design-parking-system/) |Greedy|Hard|[C++](./greedy/135_Candy.cpp)||
 
-## Union Find
+### Union Find
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |000| [Union Find Template]() |Union Find||[C++](./templates/UnionFind.cpp)|\*\*|
 |128| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |Union Find|Medium|[C++](./hashTable/128_LongestConsecutiveSequence.cpp)|\*\*|
-|305| [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) |Union Find|[C++](./unionFind/305_NumberofIslandsII.cpp)|\*|
+|305| [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) |Union Find|Hard|[C++](./unionFind/305_NumberofIslandsII.cpp)|\*|
+
+### Matrix
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|835| [Image Overlap](https://leetcode.com/problems/image-overlap/) |Matrix|Medium|[C++](./matrix/835_ImageOverlap.cpp)|
+
 
 # Classic topics
-## Parentheses
+### Parentheses
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |Stack|Easy|[C++](./classicTopics/parentheses/20_ValidParentheses.cpp)|\*|
@@ -217,7 +247,7 @@ This repository is used to track leetcode problems and notes.
 |921| [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) |Rolling state|Medium|[C++](./classicTopics/parentheses/921_MinimumAddtoMakeParenthesesValid.cpp)|\*|
 |1614| [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) |Rolling state|Medium|[C++](./classicTopics/parentheses/1614_MaximumNestingDepthoftheParentheses.cpp)||
 
-## Number of Islands
+### Number of Islands
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |200| [Number of Islands](https://leetcode.com/problems/number-of-islands/) |DFS, BFS|Medium|[C++](./classicTopics/numberOfIslands/200_NumberofIslands.cpp)|\*|
@@ -231,11 +261,54 @@ This repository is used to track leetcode problems and notes.
 |1020| [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) |DFS, BFS|Medium|[C++](./classicTopics/numberOfIslands/1020_NumberofEnclaves.cpp)|\*|
 |1254| [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) |DFS|Medium|[C++](./classicTopics/numberOfIslands/1254_NumberofClosedIslands.cpp)|\*|
 
+### Top K
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|347| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |Heap, Bucket Sort|Medium|[C++](./heap/347_TopKFrequentElements.cpp)|\*|
+|451| [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) |Bucket Sort|Medium|[C++](./classicTopics/topK/347_TopKFrequentElements.cpp)|\*|
+|703| [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) |Priority Queue|Easy|[C++](./classicTopics/topK/347_TopKFrequentElements.cpp)||
+|1032| [Stream of Characters](https://leetcode.com/problems/stream-of-characters/) |Last K, Inverse Trie|Hard|[C++](./classicTopics/topK/1032_StreamofCharacters.cpp)|\*|
+
+### Two Sum
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|1| [Two Sum](https://leetcode.com/problems/two-sum/) |Array|Easy|[C++](./Arrays/1_TwoSum.cpp)|
+|15| [3Sum](https://leetcode.com/problems/3sum/) |Array, Two Pointers|Medium|[C++](./Arrays/15_3Sum.cpp)|
+|16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |Array|Medium|[C++](./Arrays/16_3SumClosest.cpp)|
+|167| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |Array, Two pointers|Medium|[C++](./Arrays/167_TwoSumII-InputArrayIsSorted.cpp)|
+|170| [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) |Hash Table|Easy|[C++](./classicTopics/twoSum/170_TwoSumIIIDatastructuredesign.cpp)|
+|259| [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) |Array|Medium|[C++](./Arrays/259_3SumSmaller.cpp)|
+|653| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) |Hash Table, BFS, Stack|Easy|[C++](./Tree/bst/653_TwoSumIVInputisaBST.cpp)|\*\*|
+
+### Palindrome
+* ``DP``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|5| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|String, Center to ends, DP|Medium|[C++](./string/5_LongestPalindromicSubstring.cpp)|\*|
+|516| [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) |DP|Medium|[C++](./classicTopics/palindrome/516_LongestPalindromicSubsequence.cpp)|
+|647| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|String, Center to ends, DP|Medium|[C++](./string/647_PalindromicSubstrings.cpp)||
+|1143| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|DP|Medium|[C++](./classicTopics/palindrome/1143_LongestCommonSubsequence.cpp)|\*|
+|1216| [Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)|DP|Hard|[C++](./classicTopics/palindrome/1216_ValidPalindromeIII.cpp)|\*|
+
+* ``Easy, Basic``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|9| [Palindrome Number](https://leetcode.com/problems/palindrome-number/) |Math|Easy|[C++](./classicTopics/palindrome/9_PalindromeNumber.cpp)|
+|680| [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) |Two Pointers|Easy|[C++](./classicTopics/palindrome/680_ValidPalindromeII.cpp)|
+|234| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) |Linked List|Easy|[C++](./linkedList/fastSlowPointer/234_PalindromeLinkedList.cpp)|
+
+* ``BackTracking``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|131| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) |BackTracking|Medium|[C++](./classicTopics/palindrome/131_PalindromePartitioning.cpp)|\*|
 
 
 
 # 75 top questions from blind
-## Array
+### Array
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |1| [Two Sum](https://leetcode.com/problems/two-sum/) |Array|Easy|[C++](./Arrays/1_TwoSum.cpp)|
@@ -249,7 +322,7 @@ This repository is used to track leetcode problems and notes.
 |217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |Array|Easy|[C++](./Arrays/217_ContainsDuplicate.cpp)|
 |238| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |Array|Medium|[C++](./Arrays/238_ProductofArrayExceptSelf.cpp)|
 
-## Matrix
+### Matrix
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |48| [Rotate Image](https://leetcode.com/problems/rotate-image/) |Matrix|Medium|[C++](./matrix/48_RotateImage.cpp)|
@@ -257,7 +330,7 @@ This repository is used to track leetcode problems and notes.
 |348| [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) |Matrix|Medium|[C++](./matrix/348_DesignTicTacToe.cpp)|\*|
 |1275| [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) |Matrix|Medium|[C++](./matrix/1275_FindWinneronaTicTacToeGame.cpp)|
 
-## Bit Manipulation
+### Bit Manipulation
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |190| [Reverse Bits](https://leetcode.com/problems/reverse-bits/) |Bit Manipulation|Easy|[C++](./bitManipulation/190_ReverseBits.cpp)|
@@ -266,7 +339,7 @@ This repository is used to track leetcode problems and notes.
 |338| [Counting Bits](https://leetcode.com/problems/counting-bits/) |Bit Manipulation|Easy|[C++](./bitManipulation/338_CountingBits.cpp)|
 |371| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) |Bit Manipulation|Medium|[C++](./bitManipulation/371_SumofTwoIntegers.cpp)|
 
-## Interval
+### Interval
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |56| [Merge Intervals](https://leetcode.com/problems/merge-intervals/) |Interval|Medium|[C++](./interval/56_MergeIntervals.cpp)|
@@ -274,12 +347,12 @@ This repository is used to track leetcode problems and notes.
 |253| [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) |Interval|Medium|[C++](./interval/253_MeetingRoomsII.cpp)|
 |435| [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) |Interval|Medium|[C++](./interval/435_Non-overlappingIntervals.cpp)|
 
-## Linked List
+### Linked List
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |141| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) |Linked List, Two Pointers|Easy|[C++](./linkedList/fastSlowPointer/141_LinkedListCycle.cpp)|
 
-## String
+### String
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |76| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |String, Sliding Window|Hard|[C++](./string/76_MinimumWindowSubstring.cpp)|
