@@ -1,6 +1,10 @@
 #include <vector>
 #include <algorithm>
 
+//If an interviewer asks you whether you can achieve O(1) memory complexity, 
+//you can use the selection sort instead of a built-in sort in the Two Pointers approach. 
+//It will make it a bit slower, though the overall time complexity will be still O(n^2)
+
 class Solution
 {
 public:
