@@ -316,6 +316,10 @@ This repository is used to track leetcode problems and notes.
 |---| ------ | -------- | ---------- | -------- | -- |
 |121| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |Array, DP|Easy|[C++](./Arrays/121_BestTimetoBuyandSellStock.cpp)|
 |122| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|DP|Medium|[C++](./classicTopics/sellStock/122_BestTimetoBuyandSellStockII.cpp)|\*|
+|123| [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|DP|Hard|[C++](./classicTopics/sellStock/123_BestTimetoBuyandSellStockIII.cpp)|\*|
+|188| [ Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|DP|Hard|[C++](./classicTopics/sellStock/188_BestTimetoBuyandSellStockIV.cpp)|\*|
+|309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |DP|Medium|[C++](./dp/115_DistinctSubsequences.cpp)|\*|
+|714| [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|DP|Medium|[C++](./classicTopics/sellStock/714_BestTimetoBuyandSellStockwithTransactionFee.cpp)||
 
 # 75 top questions from blind
 ### Array
