@@ -222,6 +222,7 @@ This repository is used to track leetcode problems and notes.
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |135| [Candy](https://leetcode.com/problems/design-parking-system/) |Greedy|Hard|[C++](./greedy/135_Candy.cpp)||
+|2136| [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) |Greedy|Hard|[C++](./greedy/2136_EarliestPossibleDayofFullBloom)||
 
 ### Union Find
 |num|Question| Category | Difficulty | Solution |Like|
@@ -233,7 +234,12 @@ This repository is used to track leetcode problems and notes.
 ### Matrix
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
+|48| [Rotate Image](https://leetcode.com/problems/rotate-image/) |Matrix|Medium|[C++](./matrix/48_RotateImage.cpp)|
+|73| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) |Matrix|Medium|[C++](./matrix/73_SetMatrixZeroes.cpp)|
+|348| [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) |Matrix|Medium|[C++](./matrix/348_DesignTicTacToe.cpp)|\*|
+|766| [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) |Matrix|Easy|[C++](./matrix/766_ToeplitzMatrix.cpp)|
 |835| [Image Overlap](https://leetcode.com/problems/image-overlap/) |Matrix|Medium|[C++](./matrix/835_ImageOverlap.cpp)|
+|1293| [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) |BFS|Hard|[C++](./matrix/1293_ShortestPathinaGridwithObstaclesElimination.cpp)|\*|
 
 
 # Classic topics
@@ -305,7 +311,11 @@ This repository is used to track leetcode problems and notes.
 |---| ------ | -------- | ---------- | -------- | -- |
 |131| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) |BackTracking|Medium|[C++](./classicTopics/palindrome/131_PalindromePartitioning.cpp)|\*|
 
-
+### Sell Stock
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|121| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |Array, DP|Easy|[C++](./Arrays/121_BestTimetoBuyandSellStock.cpp)|
+|122| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|DP|Medium|[C++](./classicTopics/sellStock/122_BestTimetoBuyandSellStockII.cpp)|\*|
 
 # 75 top questions from blind
 ### Array
