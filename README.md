@@ -1,11 +1,5 @@
 # LEETCODE
 This repository is used to track leetcode problems and notes.
-### Category tags: 
-	Array, Two pointers, Linked List, DP, Binary Search, 
-	Bit Manipulation, Interval,
-
-	- DP: DP Game Theory, DP
-	- Graph: BFS, DFS
 
 ### Array
 |num|Question| Category | Difficulty | Solution |Like|
@@ -29,6 +23,12 @@ This repository is used to track leetcode problems and notes.
 |1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) |Array|Easy|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
 |2279| [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) |Array, Sort|Medium|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
 
+* ``Prefix Sum``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|1031| [Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/) |Prefix Sum|Medium|[C++](./Arrays/1822_SignoftheProductofanArray.cpp)|
+
 ### String
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
@@ -36,8 +36,10 @@ This repository is used to track leetcode problems and notes.
 |151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|String|Medium|[C++](./string/151_ReverseWordsinaString.cpp)|
 |249| [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)|String|Medium|[C++](./string/249_GroupShiftedStrings.cpp)|
 |344| [Reverse String](https://leetcode.com/problems/reverse-string/)|String|Easy|[C++](./string/344_ReverseString.cpp)|
+|433| [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)|String, BFS|Medium|[C++](./string/433_MinimumGeneticMutation.cpp)|\*|
 |696| [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|String|Easy|[C++](./string/696_CountBinarySubstrings.cpp)|
 |937| [ReReorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|String|Medium|[C++](./string/937_ReorderDatainLogFiles.cpp)|
+|1047| [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|String|Easy|[C++](./string/1047_RemoveAllAdjacentDuplicatesInString.cpp)|
 |1268| [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|String|Medium|[C++](./string/1268_SearchSuggestionsSystem.cpp)|\*|
 |1328| [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)|String|Medium|[C++](./string/1328_BreakaPalindrome.cpp)|
 |1592| [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|String|Easy|[C++](./string/1592_RearrangeSpacesBetweenWords.cpp)|
@@ -67,6 +69,7 @@ This repository is used to track leetcode problems and notes.
 ### Two Pointers
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
+|345| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) |Two Pointers|Easy|[C++](./dp/twoPointers/1578_MinimumTimetoMakeRopeColorful.cpp)|
 |1578| [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) |Two Pointers|Medium|[C++](./dp/twoPointers/1578_MinimumTimetoMakeRopeColorful.cpp)|
 
 * ``Sliding Window``
@@ -75,6 +78,7 @@ This repository is used to track leetcode problems and notes.
 |---| ------ | -------- | ---------- | -------- | -- |
 |340| [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) |Sliding Window, String|Medium|[C++](./dp/twoPointers/slidingWindow/340_LongestSubstringwithAtMostKDistinctCharacters.cpp)|
 |424| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) |Sliding Window, String|Medium|[C++](./dp/twoPointers/slidingWindow/424_LongestRepeatingCharacterReplacement.cpp)|\*|
+|1477| [Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) |Sliding Window, Prefix Sum|Medium|[C++](./dp/twoPointers/slidingWindow/1477_FindTwoNonoverlappingSubarraysEachWithTargetSum.cpp)|\*|
 
 ### Hash Table
 |num|Question| Category | Difficulty | Solution |Like|
@@ -117,7 +121,12 @@ This repository is used to track leetcode problems and notes.
 
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
+|114| [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) |DFS, Pre order|Medium|[C++](./Tree/traversal/114_FlattenBinaryTreetoLinkedList.cpp)|
+|117| [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) |DFS|Medium|[C++](./Tree/traversal/117_PopulatingNextRightPointersinEachNodeII.cpp)|
+|226| [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) |DFS|Easy|[C++](./Tree/traversal/226_InvertBinaryTree.cpp)|
+|559| [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) |BFS|Easy|[C++](./Tree/traversal/559_MaximumDepthofNaryTree.cpp)|
 |653| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) |Hash Table, BFS|Easy|[C++](./Tree/traversal/653_TwoSumIVInputisaBST.cpp)|
+|993| [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) |BFS|Easy|[C++](./Tree/traversal/653_TwoSumIVInputisaBST.cpp)|
 
 * ``Binary Search Tree``
 
@@ -152,15 +161,6 @@ This repository is used to track leetcode problems and notes.
 |1155| [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) |DP|Medium|[C++](./dp/1155_NumberofDiceRollsWithTargetSum.cpp)|\*|
 |1531| [String Compression II](https://leetcode.com/problems/string-compression-ii/) |DP|Medium|[C++](./dp/1531_StringCompressionII.cpp)|\*|
 
-### Graph
-|num|Question| Category | Difficulty | Solution |Like|
-|---| ------ | -------- | ---------- | -------- | -- |
-|210| [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) |Graph, BFS|Medium|[C++](./graph/bfs/210_CourseScheduleII.cpp)|\*|
-|399| [Evaluate Division](https://leetcode.com/problems/evaluate-division/) |Graph, DFS|Medium|[C++](./graph/dfs/399_EvaluateDivision.cpp)|\*|
-|841| [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) |Graph, DFS|Medium|[C++](./graph/dfs/841_KeysandRooms.cpp)|
-|1091| [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) |Graph, BFS|Medium|[C++](./graph/bfs/1091_ShortestPathinBinaryMatrix.cpp)|\*|
-|1615| [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/) |Graph|Medium|[C++](./graph/bfs/1091_ShortestPathinBinaryMatrix.cpp)|\*|
-
 * ``Game Theory``
 
 |num|Question| Category | Difficulty | Solution |Like|
@@ -171,6 +171,27 @@ This repository is used to track leetcode problems and notes.
 |115| [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) |DP Game Theory|Medium|[C++](./dp/gameTheory/115_DistinctSubsequences.cpp)|
 |877| [Stone Game](https://leetcode.com/problems/stone-game/) |DP Game Theory|Medium|[C++](./dp/gameTheory/877_StoneGame.cpp)|
 |1140| [Stone Game II](https://leetcode.com/problems/stone-game-ii/) |DP Game Theory|Medium|[C++](./dp/gameTheory/1140_StoneGameII.cpp)|
+
+
+* ``Longest Increasing Subsequence``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|72| [Edit Distance](https://leetcode.com/problems/edit-distance/) |DP Game Theory|Hard|[C++](./dp/gameTheory/72_EditDistance.cpp)|\*|
+|161| [One Edit Distance](hhttps://leetcode.com/problems/one-edit-distance/) |Two Pointers|Medium|[C++](./dp/gameTheory/161_OneEditDistance.cpp)||
+|300| [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) |DP, LIS|Medium|[C++](./dp/LongestIncreasingSubsequence/300_LongestIncreasingSubsequence.cpp)|\*|
+|1048| [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) |DP, LIS|Medium|[C++](./dp/LongestIncreasingSubsequence/1048_LongestStringChain.cpp)|\*|
+
+
+### Graph
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|210| [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) |Graph, BFS|Medium|[C++](./graph/bfs/210_CourseScheduleII.cpp)|\*|
+|399| [Evaluate Division](https://leetcode.com/problems/evaluate-division/) |Graph, DFS|Medium|[C++](./graph/dfs/399_EvaluateDivision.cpp)|\*|
+|841| [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) |Graph, DFS|Medium|[C++](./graph/dfs/841_KeysandRooms.cpp)|
+|1091| [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) |Graph, BFS|Medium|[C++](./graph/bfs/1091_ShortestPathinBinaryMatrix.cpp)|\*|
+|1615| [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/) |Graph|Medium|[C++](./graph/bfs/1091_ShortestPathinBinaryMatrix.cpp)|\*|
+
 
 ### Math
 |num|Question| Category | Difficulty | Solution |Like|
@@ -202,6 +223,7 @@ This repository is used to track leetcode problems and notes.
 |---| ------ | -------- | ---------- | -------- | -- |
 |84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |Monotinic Stack|Hard|[C++](./stack_queue/monotonic_stack/84_LargestRectangleinHistogram.cpp)|\*|
 |85| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) |Monotinic Stack|Hard|[C++](./stack_queue/monotonic_stack/85_MaximalRectangle.cpp)||
+|901| [Online Stock Span](https://leetcode.com/problems/online-stock-span/) |Monotinic Stack|Medium|[C++](./stack_queue/901_OnlineStockSpan.cpp)||
 |907| [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) |Monotinic Stack|Medium|[C++](./stack_queue/monotonic_stack/85_MaximalRectangle.cpp)||
 |2104| [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) |Monotinic Stack|Hard|[C++](./stack_queue/monotonic_stack/2104_SumofSubarrayRanges.cpp)|\*\*|
 |2334| [Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/) |Monotinic Stack|Hard|[C++](./stack_queue/monotonic_stack/2334_SubarrayWithElementsGreaterThanVaryingThreshold.cpp)||
@@ -240,6 +262,7 @@ This repository is used to track leetcode problems and notes.
 |766| [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) |Matrix|Easy|[C++](./matrix/766_ToeplitzMatrix.cpp)|
 |835| [Image Overlap](https://leetcode.com/problems/image-overlap/) |Matrix|Medium|[C++](./matrix/835_ImageOverlap.cpp)|
 |1293| [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) |BFS|Hard|[C++](./matrix/1293_ShortestPathinaGridwithObstaclesElimination.cpp)|\*|
+|1706| [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/) |Matrix|Medium|[C++](./matrix/1706_WhereWilltheBallFall.cpp)||
 
 
 # Classic topics
@@ -370,3 +393,15 @@ This repository is used to track leetcode problems and notes.
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |76| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |String, Sliding Window|Hard|[C++](./string/76_MinimumWindowSubstring.cpp)|
+
+### Tree
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) |BFS, DFS|Medium|[C++](./Tree/traversal/104_MaximumDepthofBinaryTree.cpp)|
+|104| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |DFS|Easy|[C++](./Tree/traversal/102_BinaryTreeLevelOrderTraversal.cpp)|
+|124| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |DFS|Hard|[C++](./Tree/traversal/124_BinaryTreeMaximumPathSum.cpp)|\*|
+|226| [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) |DFS|Easy|[C++](./Tree/traversal/226_InvertBinaryTree.cpp)|
+|572| [ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) |DFS|Easy|[C++](./Tree/traversal/572_SubtreeofAnotherTree.cpp)|\*|
+|653| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) |Hash Table, BFS|Easy|[C++](./Tree/traversal/653_TwoSumIVInputisaBST.cpp)|
+
+

@@ -2,6 +2,11 @@
 #include <map>
 #include <algorithm>
 
+//ask if has duplicated numbers
+//ask if can sort, or modify nums etc 
+//trade off for time or space 
+//consider corner case: nullptr, out of range, come up some test cases
+
 //logic
 //use hash map to insert left value and first index, if find the remaining value, then return
 class Solution
