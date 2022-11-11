@@ -34,6 +34,7 @@ public:
                 res = res || dfs(board, s, newx, newy, pos + 1);
             }
         }
+        //*set back, so if this try didn't work, next try can still use it 
         board[x][y] = prev;
         return res;
 
@@ -97,6 +98,8 @@ public:
                 res = res || dfs(board, s, newx, newy, pos + 1);
             }
         }
+
+        //**backtrack to set to false
         visited[x][y] = false;
         return res;
 

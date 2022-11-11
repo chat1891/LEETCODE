@@ -363,6 +363,7 @@ This repository is used to track leetcode problems and notes.
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
 |48| [Rotate Image](https://leetcode.com/problems/rotate-image/) |Matrix|Medium|[C++](./matrix/48_RotateImage.cpp)|
+|54| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) |Matrix|Medium|[C++](./matrix/54_SpiralMatrix)|\*|
 |73| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) |Matrix|Medium|[C++](./matrix/73_SetMatrixZeroes.cpp)|
 |348| [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) |Matrix|Medium|[C++](./matrix/348_DesignTicTacToe.cpp)|\*|
 |1275| [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) |Matrix|Medium|[C++](./matrix/1275_FindWinneronaTicTacToeGame.cpp)|
@@ -392,7 +393,15 @@ This repository is used to track leetcode problems and notes.
 ### String
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
+|5| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|String, Center to ends, DP|Medium|[C++](./string/5_LongestPalindromicSubstring.cpp)|\*|
+|20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |Stack|Easy|[C++](./classicTopics/parentheses/20_ValidParentheses.cpp)|\*|
+|49| [Group Anagrams](https://leetcode.com/problems/group-anagrams/)|String|Medium|[C++](./string/49_GroupAnagrams.cpp)||
 |76| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |String, Sliding Window|Hard|[C++](./string/76_MinimumWindowSubstring.cpp)|
+|125| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |String|Easy|[C++](./string/242_ValidAnagram.cpp)|
+|242| [Valid Anagram](https://leetcode.com/problems/valid-anagram/) |Hash map|Easy|[C++](./string/242_ValidAnagram.cpp)|
+|271| [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|String|Medium|[C++](./string/271_EncodeandDecodeStrings.cpp)||
+|647| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|String, Center to ends, DP|Medium|[C++](./string/647_PalindromicSubstrings.cpp)||
+
 
 ### Tree
 |num|Question| Category | Difficulty | Solution |Like|
