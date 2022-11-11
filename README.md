@@ -1,6 +1,30 @@
 # LEETCODE
 This repository is used to track leetcode problems and notes.
 
+## Table of Content
+### Categories: 
+	- [Array](#Array)
+	- [String](#String)
+	- [Binary Search]
+	- [BackTracking]
+	- [Two pointers]
+	- [Linked List]
+	- [Hash Table ]
+	- [Bit Manipulation]
+	- [DP] 
+	- [Binary Search] 
+	- [Tree]
+	- [Interval]
+	- [Graph]
+	- [Math]
+	- [Stack and Queue]
+	- [Heap]
+	- [Design]
+	- [Greedy]
+	- [Union Find]
+	- [Matrix]
+
+
 ### Array
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
