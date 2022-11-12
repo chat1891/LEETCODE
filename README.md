@@ -2,27 +2,38 @@
 This repository is used to track leetcode problems and notes.
 
 ## Table of Content
-### Categories 
+### [Problem List](#Problems)
 - [Array](#Array)
 - [String](#String)
 - [Binary Search](#Binary-Search)
 - [BackTracking](#BackTracking)
 - [Two pointers](#Two-pointers)
-- [Linked List]
-- [Hash Table ]
-- [Bit Manipulation]
-- [DP] 
-- [Binary Search] 
-- [Tree]
-- [Interval]
-- [Graph]
-- [Math]
-- [Stack and Queue]
-- [Heap]
-- [Design]
-- [Greedy]
-- [Union Find]
-- [Matrix]
+- [Linked List](#Linked-List)
+- [Hash Table](#Hash-Table)
+- [Bit Manipulation](#Bit-Manipulation)
+- [DP](#DP)
+- [Binary Search](#Binary-Search) 
+- [Tree](#Tree)
+- [Interval](#Interval)
+- [Graph](#Graph)
+- [Math](#Math)
+- [Stack and Queue](#Stack-and-Queue)
+- [Heap](#Heap)
+- [Design](#Design)
+- [Greedy](#Greedy)
+- [Union Find](#Union-Find)
+- [Matrix](#Matrix)
+
+### [Classic Topic Sum](#Classic-topics)
+- [Parentheses](#Parentheses)
+- [Number of Islands](#Number-of-Islands)
+- [Top K](#Top-K)
+- [Two Sum](#Two-Sum)
+- [Palindrome](#Palindrome)
+- [Sell Stock](#Sell-Stock)
+
+### [Blind Top 75 Questions](#75-top-questions-from-blind)
+---
 
 ## Problems
 ### Array
@@ -368,7 +379,7 @@ This repository is used to track leetcode problems and notes.
 |309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |DP|Medium|[C++](./dp/115_DistinctSubsequences.cpp)|\*|
 |714| [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|DP|Medium|[C++](./classicTopics/sellStock/714_BestTimetoBuyandSellStockwithTransactionFee.cpp)||
 
-# 75 top questions from blind
+# 75 Top Questions From Blind
 ### Array
 |num|Question| Category | Difficulty | Solution |Like|
 |---| ------ | -------- | ---------- | -------- | -- |
