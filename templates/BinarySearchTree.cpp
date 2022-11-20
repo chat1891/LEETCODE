@@ -13,7 +13,7 @@ struct TreeNode
 };
 
 
-//inorder traversal
+//inorder traversal recursion
 void inorder(std::vector<int>& nums, TreeNode* node)
 {
     if (node == nullptr) return;
@@ -21,6 +21,33 @@ void inorder(std::vector<int>& nums, TreeNode* node)
     nums.push_back(node->val);
     inorder(nums, node->right);
 }
+
+//iterative inorder
+//230. Kth Smallest Element in a BST
+class Solution
+{
+public:
+    int kthSmallest(TreeNode* root, int k)
+    {
+        std::stack<TreeNode*> stk;
+        while (true)
+        {
+            while (root != nullptr)
+            {
+                stk.push(root);
+                root = root->left;
+            }
+
+            root = stk.top();
+            stk.pop();
+            k--;
+            if (k == 0)
+                return root->val;
+            root = root->right;
+        }
+
+    }
+};
 
 //====================================================
 // LEETCODE 173. Binary Search Tree Iterator solution
