@@ -13,6 +13,7 @@ we can optimize to find minimum 2 numbers, and rest is the answer
 
 //use bucket sort
 //https://www.youtube.com/watch?v=YPTqKIgVk-k
+//time: O(n)
 class Solution_bucket
 {
 public:

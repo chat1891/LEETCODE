@@ -22,6 +22,7 @@ public:
         //use priority queue
         //insert pair<first value, list indedx> to priority queue
         //move that list's first value to next
+        //pq only keeps first item of every node in list
         std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int>>, std::greater<std::pair<int, int>>> pq;
         int n = lists.size();
         for (int i = 0; i < n; i++)
