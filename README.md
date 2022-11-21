@@ -138,8 +138,9 @@ This repository is used to track leetcode problems and notes.
 |146| [LRU Cache](https://leetcode.com/problems/my-calendar-iii/) |Hash Table, Scan line|Medium|[C++](./hashTable/146_LRUCache.cpp)|
 |219| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) |Hash Table|Easy|[C++](./hashTable/219_ContainsDuplicateII.cpp)|\*|
 |981| [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) |Hash Table|Medium|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
-|2347| [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) |Hash Table|Easy|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
-|2357| [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) |Hash Table|Easy|[C++](./hashTable/981_TimeBasedKeyValueStore.cpp)|
+|2225| [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) |Hash Table|Medium|[C++](./hashTable/2225_FindPlayersWithZeroorOneLosses.cpp)|
+|2347| [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) |Hash Table|Easy|[C++](./hashTable/2347_BestPokerHand.cpp)|
+|2357| [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) |Hash Table|Easy|[C++](./hashTable/2357_MakeArrayZerobySubtractingEqualAmounts.cpp)|
 
 ### Bit Manipulation
 |num|Question| Category | Difficulty | Solution |Like|
@@ -155,6 +156,8 @@ This repository is used to track leetcode problems and notes.
 |---| ------ | -------- | ---------- | -------- | -- |
 |23| [Merge k Sorted List](https://leetcode.com/problems/merge-k-sorted-lists/) |Linked List|Hard|[C++](./linkedList/23_MergekSortedList.cpp)|
 |25| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) |Linked List|Hard|[C++](./linkedList/25_ReverseNodesinkGroup.cpp)|
+|160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |Linked List|Easy|[C++](./linkedList/160_IntersectionofTwoLinkedLists.cpp)|\*|
+|206| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |Linked List|Easy|[C++](./linkedList/206_ReverseLinkedList.cpp)|\*|
 |237| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) |Linked List|Medium|[C++](./linkedList/237_DeleteNodeinaLinkedList.cpp)|
 |2095| [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) |Linked List|Medium|[C++](./linkedList/2095_DeletetheMiddleNodeofaLinkedList.cpp)|
 
@@ -193,6 +196,7 @@ This repository is used to track leetcode problems and notes.
 |98| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) |DFS, Traversal|Medium|[C++](./Tree/bst/98_ValidateBinarySearchTree.cpp)|\*|
 |173| [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) |DFS, BFS|Easy|[C++](./Tree/bst/173_BinarySearchTreeIterator.cpp)|\*\*|
 |230| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) |DFS, Traversal|Medium|[C++](./Tree/bst/230_KthSmallestElementinaBST.cpp)||
+|235| [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |BST|Medium|[C++](./Tree/lowestCommonAncestor/235_LowestCommonAncestorofaBinarySearchTree.cpp)|\*|
 |653| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) |Hash Table, BFS|Easy|[C++](./Tree/bst/653_TwoSumIVInputisaBST.cpp)|\*\*|
 
 * ``Trie, prefix tree``
@@ -205,6 +209,17 @@ This repository is used to track leetcode problems and notes.
 |212| [Word Search II](https://leetcode.com/problems/word-search-ii/) |Trie|Hard|[C++](./Tree/trie/212_WordSearchII.cpp)|\*|
 |421| [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) |Bitwise Trie|Medium|[C++](./Tree/trie/421_MaximumXORofTwoNumbersinanArray.cpp)|\*|
 
+* `` Lowest Common Ancestor``
+
+|num|Question| Category | Difficulty | Solution |Like|
+|---| ------ | -------- | ---------- | -------- | -- |
+|235| [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |LCA|Medium|[C++](./Tree/lowestCommonAncestor/235_LowestCommonAncestorofaBinarySearchTree.cpp)|
+|236| [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |LCA|Medium|[C++](./Tree/lowestCommonAncestor/236_LowestCommonAncestorofaBinaryTree.cpp)|\*|
+|1257| [Smallest Common Region](https://leetcode.com/problems/smallest-common-region/) |LCA|Medium|[C++](./Tree/lowestCommonAncestor/1257_SmallestCommonRegion.cpp)|\*|
+|1644| [Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/) |LCA|Medium|[C++](./Tree/lowestCommonAncestor/1644_LowestCommonAncestorofaBinaryTreeII.cpp)||
+|1650| [Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) |LCA|Medium|[C++](./Tree/lowestCommonAncestor/1650_LowestCommonAncestorofaBinaryTreeIII.cpp)|\*|
+|1676| [Lowest Common Ancestor of a Binary Tree IV](hhttps://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/) |LCA|Medium|[C++](./Tree/lowestCommonAncestor/1676_LowestCommonAncestorofaBinaryTreeIV.cpp)|\*|
+|2096| [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |LCA|Medium|[C++](./Tree/lowestCommonAncestor/2096_StepByStepDirectionsFromaBinaryTreeNodetoAnother.cpp)|\*|
 
 ### Interval
 |num|Question| Category | Difficulty | Solution |Like|
@@ -420,6 +435,7 @@ This repository is used to track leetcode problems and notes.
 |309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |DP|Medium|[C++](./dp/115_DistinctSubsequences.cpp)|\*|
 |714| [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|DP|Medium|[C++](./classicTopics/sellStock/714_BestTimetoBuyandSellStockwithTransactionFee.cpp)||
 
+
 ---
 
 # 75 Top Questions From Blind
@@ -490,6 +506,7 @@ This repository is used to track leetcode problems and notes.
 |124| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |DFS|Hard|[C++](./Tree/traversal/124_BinaryTreeMaximumPathSum.cpp)|\*|
 |230| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) |DFS, Traversal|Medium|[C++](./Tree/bst/230_KthSmallestElementinaBST.cpp)||
 |226| [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) |DFS|Easy|[C++](./Tree/traversal/226_InvertBinaryTree.cpp)|
+|235| [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |LCA|Medium|[C++](./Tree/lowestCommonAncestor/235_LowestCommonAncestorofaBinarySearchTree.cpp)|
 |572| [ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) |DFS|Easy|[C++](./Tree/traversal/572_SubtreeofAnotherTree.cpp)|\*|
 |653| [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) |Hash Table, BFS|Easy|[C++](./Tree/traversal/653_TwoSumIVInputisaBST.cpp)|
 
